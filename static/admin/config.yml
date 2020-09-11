@@ -312,7 +312,7 @@ collections: # A list of collections the CMS should be able to edit
           required: false,
         }
       - { label: Budget, name: budget, widget: text }
-      - { label: Completed, name: completed, widget: date, format: '{{year}}-{{month}}-{{day}}' }
+      - { label: Completed, name: completed, widget: date, format: ''YYYY-MM-DD'' }
       - { label: Architect, name: architect, widget: text }
       - { label: Content, name: body, widget: markdown }
       - label: 'Categories'
