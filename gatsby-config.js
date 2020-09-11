@@ -2,8 +2,8 @@ const postcssPresetEnv = require('postcss-preset-env')
 
 module.exports = {
   siteMetadata: {
-    title: 'Yellowcake',
-    siteUrl: 'https://yellowcake.netlify.com'
+    title: 'Y',
+    siteUrl: 'https://quirky-blackwell-1dd863.netlify.app'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -12,7 +12,7 @@ module.exports = {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
         /*id: 'GTM-add_your_tag_here',*/
-        id: 'GTM-P4RNF8D',
+        id: 'GTM-P4RNF7F',
         includeInDevelopment: false
       }
     },
@@ -131,7 +131,7 @@ module.exports = {
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
         stylesPath: `${__dirname}/src/cms/admin.css`,
-        enableIdentityWidget: true
+        enableIdentityWidget: false
       }
     },
     'gatsby-plugin-netlify' // make sure to keep it last in the array
