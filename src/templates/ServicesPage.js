@@ -1,16 +1,16 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
-import PageHeader from '../components/PageHeader'
 import Content from '../components/Content.js'
 import Layout from '../components/Layout.js'
 import Accordion from '../components/Accordion'
 import BackgroundVideo from '../components/BackgroundVideo'
 import Gallery from '../components/Gallery'
 import Popup from '../components/Popup'
+import PageHeader from '../components/PageHeader'
 
 // Export Template for use in CMS preview
-export const ComponentsPageTemplate = ({
+export const ServicesPageTemplate = ({
   title,
   subtitle,
   featuredImage,
@@ -21,7 +21,7 @@ export const ComponentsPageTemplate = ({
   videoTitle,
   accordion,
   body,
-  gallery
+  gallery,
 }) => (
   <main>
     <PageHeader
@@ -37,7 +37,7 @@ export const ComponentsPageTemplate = ({
 
     <section className="section">
       <div className="container">
-        <h2>Our gallery component</h2>
+        <h2>Our gallery Service</h2>
         <Gallery images={gallery} />
       </div>
     </section>
@@ -70,19 +70,19 @@ export const ComponentsPageTemplate = ({
   </main>
 )
 
-const ComponentsPage = ({ data: { page } }) => (
+const ServicesPage = ({ data: { page } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
   >
-    <ComponentsPageTemplate {...page} {...page.frontmatter} body={page.html} />
+    <ServicesPageTemplate {...page} {...page.frontmatter} body={page.html} />
   </Layout>
 )
 
-export default ComponentsPage
+export default ServicesPage
 
 export const pageQuery = graphql`
-  query ComponentsPage($id: String!) {
+  query ServicesPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
       ...Gallery

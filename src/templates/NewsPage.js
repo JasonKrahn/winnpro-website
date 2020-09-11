@@ -1,19 +1,12 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-
-import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
-import SVGIcon from '../components/SVGIcon'
+import PageHeader from '../components/PageHeader'
 
 // Export Template for use in CMS preview
-export const DefaultPageTemplate = ({
-  title,
-  subtitle,
-  featuredImage,
-  body
-}) => (
-  <main className="DefaultPage">
+export const NewsPageTemplate = ({ title, subtitle, featuredImage, body }) => (
+  <main className="NewsPage">
     <PageHeader
       title={title}
       subtitle={subtitle}
@@ -23,24 +16,23 @@ export const DefaultPageTemplate = ({
     <section className="section">
       <div className="container">
         <Content source={body} />
-        <SVGIcon src="/images/calendar.svg" />
       </div>
     </section>
   </main>
 )
 
-const DefaultPage = ({ data: { page } }) => (
+const NewsPage = ({ data: { page } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
   >
-    <DefaultPageTemplate {...page.frontmatter} body={page.html} />
+    <NewsPageTemplate {...page.frontmatter} body={page.html} />
   </Layout>
 )
-export default DefaultPage
+export default NewsPage
 
 export const pageQuery = graphql`
-  query DefaultPage($id: String!) {
+  query NewsPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
       html

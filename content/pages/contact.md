@@ -1,27 +1,20 @@
 ---
 template: ContactPage
 slug: contact
-title: Contact Page
-featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
+title: Contact WinnPro
+featuredImage: 'https://res.cloudinary.com/winnpro/image/upload/v1595612913/DSC_2072_gakqe6.jpg'
 subtitle: This is the contact page subtitle.
-address: '404 James St, Burleigh Heads QLD 4220'
-phone: 0987 123 456
-email: example@example.com
+address: '48, Unit A Speers Rd, Winnipeg, MB R2J 1M3'
+phone: '12049895941'
+email: info@winnpro.ca
 locations:
-  - lat: '-27.9654732'
-    lng: '153.2432449'
-    mapLink: ''
+  - lat: ''
+    lng: ''
+    mapLink: >-
+      https://www.google.com/maps/place/WinnPro+Construction+Ltd/@49.8728799,-97.0725718,15z/data=!4m5!3m4!1s0x0:0x695df3daa08feddb!8m2!3d49.8728799!4d-97.0725718
 meta:
-  description: This is a meta description.
+  description: |
+    Contact WinnPro Construction
   title: Contact Page
 ---
-
-# Example contact form
-
-This form is setup to use Netlify's form handling:
-
-- the form action is set to the current absolute url: `action: '/contact/'`
-- a name attribute is sent with the form's data `'form-name': 'Contact'`
-- netlify data attributes are added to the form `data-netlify data-netlify-honeypot`
-
-Find out more in the [Netlify Docs](https://www.netlify.com/docs/form-handling/).
+# Contact form

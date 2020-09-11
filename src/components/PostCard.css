@@ -1,6 +1,6 @@
 .PostCard {
   text-decoration: none;
-  background: white;
+  background: rgb(250, 250, 250);
   color: inherit;
   border: 1px solid var(--lightGrey);
   border-radius: var(--borderRadius);
@@ -12,21 +12,26 @@
 .PostCard:hover,
 .PostCard:focus {
   transform: translateY(-1px);
-  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.199);
 }
 
 .PostCard--Image {
   margin: 0 0 2rem 0;
   width: 100%;
-  height: 15rem;
+  height: 20rem;
+}
+
+.PostCard--Details {
+  margin: 0;
 }
 
 .PostCard--Title {
+  color: var(--primary);
   margin: 0;
 }
 
 .PostCard--Content {
-  padding: 0 2.5rem 2.5rem;
+  padding: 0 2rem 2rem;
 }
 
 .PostCard--Category {

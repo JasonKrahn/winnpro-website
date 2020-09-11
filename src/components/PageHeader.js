@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
 import Image from './Image'
 import Content from './Content'
 import './PageHeader.css'
@@ -10,7 +9,7 @@ const PageHeader = ({
   subtitle,
   backgroundImage,
   large,
-  className = ''
+  className = '',
 }) => {
   if (large) className += ' PageHeader-large'
   return (
@@ -36,7 +35,7 @@ const PageHeader = ({
 
 PageHeader.propTypes = {
   title: PropTypes.string,
-  subtitle: PropTypes.string
+  subtitle: PropTypes.string,
 }
 
 export default PageHeader

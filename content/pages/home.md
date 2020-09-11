@@ -1,30 +1,46 @@
 ---
 template: HomePage
-slug: ''
-title: Yellowcake
-featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
-subtitle: ' Welcome to the ultimate Gatsby and Netlify starter project.'
+slug: ""
+title: WinnPro Construction
+featuredImage: https://res.cloudinary.com/winnpro/image/upload/v1595612913/DSC_2079-1140x460_ofci5g.jpg
+subtitle: Winnipeg's foremost commercial contractors
+section1: >-
+  ## Mission Statement
+
+  We believe that if you are going to do something, you do it right. Passionate about delivering results and dedicated to client satisfaction, we approach every project with integrity, respect and proven solutions for your needs.
+
+
+  We strive to achieve long-term relationships with our partners and customers. We recognize the value of experience, hard work, and standing by your word; listening to your needs to understand your specifications and create the space you want.
+
+
+  At WinnPro, we are proud of the structures and spaces we have been a part of creating with our customers, and look forward to continuing to working together on projects that add value to our community and landscape while bring the results you deserve.
+section2: |-
+  ## About Us
+
+  Here are some things about us.
+video: 
+videoPoster: https://res.cloudinary.com/winnpro/image/upload/v1599248541/Project%20Posts/Berts%20Picks/20191027_072238_ozvgxp.jpg
+videoTitle: "Serving Winnipeg for 15 years"
+accordion:
+  - description: Project management is known to be a combination of art and science; involving planning, organizing, controlling and leading. With a wide range of dedicated licensed sub-trades and a full suite of project management services, our team strategically controls the key elements of time, quality, flexibility, risk and cost. Our team ensures your goals are met and results are delivered. Combining the science of project management with the art of our experience and knowledge, we direct and motivate all parties involved in a project in order to ensure its success
+    title: Project Management
+  - description: Taciti lorem tempor quam vestibulum dis habitasse
+    title: General Contracting
+  - description: Taciti lorem tempor quam vestibulum dis habitasse
+    title: Design Build
+  - description: Taciti lorem tempor quam vestibulum dis habitasse
+    title: Building Maintenance Services
+gallery:
+  - alt: WinnPro Headquarters
+    image: https://ucarecdn.com/48e39e19-b0cb-432c-83fd-a573bbd1fbb2/
+    title: Best
+  - alt: Best image
+    image: https://ucarecdn.com/48e39e19-b0cb-432c-83fd-a573bbd1fbb2/
+    title: Best image
+  - alt: Dad's fav treat
+    image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
+    title: Dad's fav treat
 meta:
   description: This is a meta description.
-  title: The Ultimate Gatsby Starter
+  title: WinnPro Construction Home Page
 ---
-
-Yellowcake is an opinionated starter project created by [Thrive Digital](https://thriveweb.com.au/) a [Gold Coast Web Design](https://thriveweb.com.au/) studio. to help you create lightening fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).
-
-View the [project overview](https://thriveweb.com.au/the-lab/yellowcake-gatsby-react-js-starter-project/) and the [docs](https://github.com/thriveweb/yellowcake/blob/master/README.md).
-
-# Features
-
-- **[Gatsby](https://gatsbyjs.org)** static site generator
-- **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
-- Dynamic menus and forms
-- **[Mailchimp](http://mailchimp.com)** and **[Uploadcare](https://uploadcare.com)** integrations
-- Fully responsive layout for mobile and widescreen browsing
-- Blog searching and paging functionality
-- Seamless image and content sliders
-
-## Get started
-
-View the [Netlify CMS Docs](https://www.netlifycms.org/docs/) and the [Netlify CMS Repo](https://github.com/netlify/netlify-cms).
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)

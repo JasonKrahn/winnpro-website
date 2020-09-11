@@ -1,11 +1,11 @@
 ---
-template: ComponentsPage
-slug: components
-title: Components Page
-featuredImage: 'https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/'
-subtitle: This is the components page subtitle.
+template: ServicesPage
+slug: services
+title: Services
+featuredImage: 'https://res.cloudinary.com/winnpro/image/upload/v1595612913/DSC_4742-1140x460_oodhfo.jpg'
+subtitle: WinnPro Services
 section1: >-
-  ## This is a container component
+  
 
   A sem vel nec sodales mi vivamus senectus sed potenti a parturient nascetur
   tincidunt nisi pulvinar rhoncus a. Risus imperdiet taciti suspendisse facilisi
@@ -48,5 +48,5 @@ gallery:
     title: Yellow Ice Cream
 meta:
   description: This is a meta description.
-  title: Components Page
+  title: Services Page
 ---

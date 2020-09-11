@@ -10,7 +10,7 @@ export class Navigation extends Component {
   state = {
     active: false,
     activeSubNav: false,
-    currentPath: false
+    currentPath: false,
   }
 
   componentDidMount = () =>
@@ -21,9 +21,9 @@ export class Navigation extends Component {
   // Only close nav if it is open
   handleLinkClick = () => this.state.active && this.handleMenuToggle()
 
-  toggleSubNav = subNav =>
+  toggleSubNav = (subNav) =>
     this.setState({
-      activeSubNav: this.state.activeSubNav === subNav ? false : subNav
+      activeSubNav: this.state.activeSubNav === subNav ? false : subNav,
     })
 
   render() {
@@ -50,7 +50,7 @@ export class Navigation extends Component {
           </Link>
           <div className="Nav--Links">
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/components/">Components</NavLink>
+            <NavLink to="/services/">Services</NavLink>
             <div
               className={`Nav--Group ${
                 this.state.activeSubNav === 'posts' ? 'active' : ''
@@ -59,17 +59,16 @@ export class Navigation extends Component {
               <span
                 className={`NavLink Nav--GroupParent ${
                   this.props.location.pathname.includes('posts') ||
-                  this.props.location.pathname.includes('blog') ||
+                  this.props.location.pathname.includes('Projects') ||
                   this.props.location.pathname.includes('post-categories')
                     ? 'active'
                     : ''
                 }`}
                 onClick={() => this.toggleSubNav('posts')}
-              >
-                Blog
-                <div className="Nav--GroupLinks">
-                  <NavLink to="/blog/" className="Nav--GroupLink">
-                    All Posts
+              >Completed Projects
+              <div className="Nav--GroupLinks">
+                  <NavLink to="/projects/" className="Nav--GroupLink">
+                    All
                   </NavLink>
                   {subNav.posts.map((link, index) => (
                     <NavLink
@@ -83,7 +82,8 @@ export class Navigation extends Component {
                 </div>
               </span>
             </div>
-            <NavLink to="/default/">Default</NavLink>
+            <NavLink to="/news/">News</NavLink>
+            <NavLink to="/aboutus/">About Us</NavLink>
             <NavLink to="/contact/">Contact</NavLink>
           </div>
           <button
@@ -99,5 +99,5 @@ export class Navigation extends Component {
 }
 
 export default ({ subNav }) => (
-  <Location>{route => <Navigation subNav={subNav} {...route} />}</Location>
+  <Location>{(route) => <Navigation subNav={subNav} {...route} />}</Location>
 )

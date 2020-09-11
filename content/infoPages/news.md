@@ -1,20 +1,22 @@
 ---
-template: DefaultPage
-slug: default
-title: Default
-featuredImage: https://ucarecdn.com/7ec2ff8c-5ef7-4dd8-b551-baa44d114cc3/
+template: NewsPage
+slug: news
+title: News
+featuredImage: https://res.cloudinary.com/winnpro/image/upload/v1595616870/DJI_0005_md5mn9.jpg
 meta:
   description: test meta description
   title: test meta title
 ---
 
-## This is the DefaultPage template
+## This is the NewstPage template
 
 Paragraphs are separated by a blank line.
 
 The second paragraph. This is placeholder text that our web designers put here to make sure words appear properly on your website. _Italic_, **bold**, and `monospace`.
 
 ### Unordered lists:
+
+npm link sanity-plugin-asset-source-cloudinary
 
 - this one
 - that one

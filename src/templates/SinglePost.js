@@ -5,15 +5,20 @@ import { ChevronLeft } from 'react-feather'
 
 import Content from '../components/Content'
 import Layout from '../components/Layout'
+import Gallery from '../components/Gallery'
 import './SinglePost.css'
 
 export const SinglePostTemplate = ({
   title,
+  architect,
+  budget,
+  completed,
   date,
   body,
+  gallery,
   nextPostURL,
   prevPostURL,
-  categories = []
+  categories = [],
 }) => (
   <main>
     <article
@@ -22,7 +27,7 @@ export const SinglePostTemplate = ({
       itemType="http://schema.org/BlogPosting"
     >
       <div className="container skinny">
-        <Link className="SinglePost--BackButton" to="/blog/">
+        <Link className="SinglePost--BackButton" to="/projects/">
           <ChevronLeft /> BACK
         </Link>
         <div className="SinglePost--Content relative">
@@ -45,7 +50,7 @@ export const SinglePostTemplate = ({
                     className="SinglePost--Meta--Category"
                   >
                     {cat.category}
-                    {/* Add a comma on all but last category */}
+
                     {index !== categories.length - 1 ? ',' : ''}
                   </span>
                 ))}
@@ -58,18 +63,25 @@ export const SinglePostTemplate = ({
               {title}
             </h1>
           )}
-
           <div className="SinglePost--InnerContent">
             <Content source={body} />
           </div>
-
+          <div className="project-table">
+            <strong>Budget: </strong>{budget}  |  <strong>Date Completed: </strong><time completed={date}>{date}</time>   |   <strong>Architect: </strong>{architect}
+          </div>
+          <section className="section">
+            <div>
+            <h2>Project Photos</h2>
+            <Gallery images={gallery} />
+            </div>
+          </section>
           <div className="SinglePost--Pagination">
             {prevPostURL && (
               <Link
                 className="SinglePost--Pagination--Link prev"
                 to={prevPostURL}
               >
-                Previous Post
+                Previous Project
               </Link>
             )}
             {nextPostURL && (
@@ -77,7 +89,7 @@ export const SinglePostTemplate = ({
                 className="SinglePost--Pagination--Link next"
                 to={nextPostURL}
               >
-                Next Post
+                Next Project
               </Link>
             )}
           </div>
@@ -89,7 +101,7 @@ export const SinglePostTemplate = ({
 
 // Export Default SinglePost for front-end
 const SinglePost = ({ data: { post, allPosts } }) => {
-  const thisEdge = allPosts.edges.find(edge => edge.node.id === post.id)
+  const thisEdge = allPosts.edges.find((edge) => edge.node.id === post.id)
   return (
     <Layout
       meta={post.frontmatter.meta || false}
@@ -116,10 +128,14 @@ export const pageQuery = graphql`
   query SinglePost($id: String!) {
     post: markdownRemark(id: { eq: $id }) {
       ...Meta
+      ...Gallery
       html
       id
       frontmatter {
         title
+        budget
+        architect
+        completed
         template
         subtitle
         date(formatString: "MMMM Do, YYYY")
