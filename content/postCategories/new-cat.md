@@ -2,7 +2,8 @@
 template: BlogIndex
 title: New Cat
 subtitle: new Cat
-featuredImage: 'https://ucarecdn.com/d3dc630b-1662-4a51-b2c0-641b8798b0bf/'
+featuredImage: >-
+  https://ucarecdn.com/41edfca9-deee-426d-b463-86efd341efeb/-/preview/-/enhance/26/
 meta:
   description: Hi
   title: Hi
