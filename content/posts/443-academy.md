@@ -1,6 +1,6 @@
 ---
 template: SinglePost
-title: Project Post
+title: New Post
 status: Published
 date: '2018-05-25'
 featuredImage: >-
