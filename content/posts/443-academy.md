@@ -2,7 +2,7 @@
 template: SinglePost
 title: Project Post
 status: Published
-date: Invalid date
+date: '2018-01-16'
 featuredImage: >-
   https://ucarecdn.com/6a00645e-a07d-4c6c-8386-7e0f86bcff84/-/crop/1632x1853/0,596/-/preview/
 budget: $100,000
