@@ -76,7 +76,16 @@ module.exports = {
     // images
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-
+    {
+      resolve:`gatsby-source-cloudinary`,
+      options: {
+        cloudName: `winnpro`,
+        apiKey: process.env.CLOUDINARY_API_KEY,
+        apiSecret: process.env.CLOUDINARY_API_SECRET,
+      resourceType: `image`,
+      folders: ["Project Posts", "Pages"]
+      }
+  },
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -88,7 +97,8 @@ module.exports = {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 800,
-              linkImagesToOriginal: false
+              linkImagesToOriginal: false,
+              folders: ["home", "Project Posts"]
             }
           },
           `gatsby-remark-responsive-iframe`
@@ -148,17 +158,6 @@ module.exports = {
         enableIdentityWidget: true
       },
     },
-    {
-      resolve:`gatsby-source-cloudinary`,
-      options: {
-      cloudName: `winnpro`,
-      apiKey: 772329431874282,
-      apiSecret: `bvLYAVKM4y3GaFYyUKPMDvX4C1A`,
-      resourceType: `image`,
-      type: [`upload`],
-      prefix: `winnpro/`
-      }
-  },
     'gatsby-plugin-netlify'
     // make sure to keep it last in the array
   ]
