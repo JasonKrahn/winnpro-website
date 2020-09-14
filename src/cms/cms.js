@@ -9,9 +9,18 @@ import { NewsPageTemplate } from '../templates/NewsPage'
 import { ProjectIndexTemplate } from '../templates/ProjectIndex'
 import { SinglePostTemplate } from '../templates/SinglePost'
 import uploadcare from 'netlify-cms-media-library-uploadcare'
+import cloudinary from 'netlify-cms-media-library-cloudinary';
 
+CMS.init({
+  config: {
+    backend: {
+      name: "git-gateway",
+    },
+  },
+})
 
-CMS.registerMediaLibrary(uploadcare)
+CMS.registerMediaLibrary(uploadcare);
+CMS.registerMediaLibrary(cloudinary);
 
 if (
   window.location.hostname === 'localhost' &&

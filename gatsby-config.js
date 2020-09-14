@@ -1,4 +1,5 @@
 const postcssPresetEnv = require('postcss-preset-env')
+require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
@@ -44,8 +45,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'yellowcake',
-        short_name: 'yellowcake',
+        name: 'winnpro',
+        short_name: 'WinnPro',
         start_url: '/',
         background_color: '#00C2BD',
         theme_color: '#00C2BD',
@@ -130,19 +131,22 @@ module.exports = {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
+        options: {
+          manualInit: true,
+        },
         stylesPath: `${__dirname}/src/cms/admin.css`,
         enableIdentityWidget: true
-      }
+      },
     },
     {
       resolve:`gatsby-source-cloudinary`,
       options: {
-      cloudName: process.env.CLOUDINARY_CLOUD_NAME,
-      apiKey: process.env.CLOUDINARY_API_KEY,
-      apiSecret: process.env.CLOUDINARY_API_SECRET,
+      cloudName: `winnpro`,
+      apiKey: 772329431874282,
+      apiSecret: `bvLYAVKM4y3GaFYyUKPMDvX4C1A`,
       resourceType: `image`,
-      type: `type Value`,
-      prefix: `abc-xyz/`
+      type: [`upload`],
+      prefix: `res.cloudinary.com/winnpro`
       }
   },
     'gatsby-plugin-netlify' // make sure to keep it last in the array
