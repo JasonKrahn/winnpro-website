@@ -3,7 +3,7 @@ require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
-    title: 'Y',
+    title: 'WinnPro',
     siteUrl: 'https://quirky-blackwell-1dd863.netlify.app'
   },
   plugins: [
@@ -13,9 +13,9 @@ module.exports = {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
         /*id: 'GTM-add_your_tag_here',*/
-        id: 'GTM-P4RNF7F',
-        includeInDevelopment: false
-      }
+        id: 'GTM-N8XK2GT',
+        includeInDevelopment: true,
+      },
     },
     {
       resolve: 'gatsby-plugin-offline',
@@ -45,16 +45,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'winnpro',
+        name: 'WinnPro',
         short_name: 'WinnPro',
         start_url: '/',
-        background_color: '#00C2BD',
-        theme_color: '#00C2BD',
+        background_color: '#661b18',
+        theme_color: '#661b18',
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: 'standalone',
-        icon: `${__dirname}/static/images/logo.svg` // This path is relative to the root of the site.
-      }
+        icon: `${__dirname}/static/images/logo.svg`, // This path is relative to the root of the site.
+      },
     },
 
     // Add static assets before markdown files
@@ -126,6 +126,16 @@ module.exports = {
         showSpinner: false
       }
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Exo 2`,
+          `source sans pro\:100,300,800`, // you can also specify font weights and styles
+        ],
+        display: 'swap',
+      },
+    },
     'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-netlify-cms',
@@ -146,9 +156,10 @@ module.exports = {
       apiSecret: `bvLYAVKM4y3GaFYyUKPMDvX4C1A`,
       resourceType: `image`,
       type: [`upload`],
-      prefix: `res.cloudinary.com/winnpro`
+      prefix: `winnpro/`
       }
   },
-    'gatsby-plugin-netlify' // make sure to keep it last in the array
+    'gatsby-plugin-netlify'
+    // make sure to keep it last in the array
   ]
 }

@@ -22,6 +22,8 @@ local_backend: true
 media_library:
   name: cloudinary
   config:
+    cloud_name: winnpro
+    api_key: 772329431874282
     default_transformations:
               -   - fetch_format: auto
                     quality: auto
