@@ -25,7 +25,7 @@ module.exports = {
             // and same reason as above)
             urlPattern: /(\.js$|\.css$|static\/)/,
             handler: `cacheFirst`
-          },
+          }, 
           {
             // Add runtime caching of various other page resources
             urlPattern: /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
@@ -134,6 +134,17 @@ module.exports = {
         enableIdentityWidget: true
       }
     },
+    {
+      resolve:`gatsby-source-cloudinary`,
+      options: {
+      cloudName: process.env.CLOUDINARY_CLOUD_NAME,
+      apiKey: process.env.CLOUDINARY_API_KEY,
+      apiSecret: process.env.CLOUDINARY_API_SECRET,
+      resourceType: `image`,
+      type: `type Value`,
+      prefix: `abc-xyz/`
+      }
+  },
     'gatsby-plugin-netlify' // make sure to keep it last in the array
   ]
 }
