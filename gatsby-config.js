@@ -77,14 +77,22 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
-      resolve:`gatsby-source-cloudinary`,
+      resolve:`gatsby-plugin-cloudinary-image-gallery`,
       options: {
         cloudName: `winnpro`,
         apiKey: process.env.CLOUDINARY_API_KEY,
         apiSecret: process.env.CLOUDINARY_API_SECRET,
-      resourceType: `image`,
       folders: ["Project Posts", "Pages"]
       }
+  },
+  {
+    resolve:`gatsby-source-cloudinary`,
+    options: {
+      cloudName: `winnpro`,
+      apiKey: process.env.CLOUDINARY_API_KEY,
+      apiSecret: process.env.CLOUDINARY_API_SECRET,
+      resourceType: `image`
+    }
   },
     {
       resolve: 'gatsby-transformer-remark',
@@ -97,8 +105,7 @@ module.exports = {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 800,
-              linkImagesToOriginal: false,
-              folders: ["home", "Project Posts"]
+              linkImagesToOriginal: false
             }
           },
           `gatsby-remark-responsive-iframe`

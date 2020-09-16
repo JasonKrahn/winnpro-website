@@ -21,6 +21,7 @@ local_backend: true
 
 media_library:
   name: cloudinary
+  output_filename_only: true
   config:
     cloud_name: winnpro
     api_key: 772329431874282

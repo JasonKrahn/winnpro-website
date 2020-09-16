@@ -8,7 +8,6 @@ import { ContactPageTemplate } from '../templates/ContactPage'
 import { NewsPageTemplate } from '../templates/NewsPage'
 import { ProjectIndexTemplate } from '../templates/ProjectIndex'
 import { SinglePostTemplate } from '../templates/SinglePost'
-import uploadcare from 'netlify-cms-media-library-uploadcare'
 import cloudinary from 'netlify-cms-media-library-cloudinary'
 
 CMS.init({
@@ -19,7 +18,6 @@ CMS.init({
   },
 })
 
-CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
 
 if (
