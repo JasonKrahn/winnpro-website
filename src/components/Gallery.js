@@ -21,12 +21,14 @@ export const query = graphql`
   }
 `
 
+/* eslint-disable */
+
 export default class Gallery extends Component {
   state = {
     loaded: false,
     isOpen: false,
     sliderImages: [],
-    index: 0,
+    index: 0
   }
 
   isOpen(isOpen, index) {
@@ -36,22 +38,22 @@ export default class Gallery extends Component {
 
   getImageInfo = (img, index) =>
     fetch(img.image + '-/json/')
-      .then((res) => res.json())
+      .then(res => res.json())
       .then(
-        (result) => {
+        result => {
           const newImagesArr = [...this.state.sliderImages]
           newImagesArr[index] = {
             src: img.image,
             title: img.title,
             w: result.width,
-            h: result.height,
+            h: result.height
           }
           this.setState({
-            sliderImages: newImagesArr,
+            sliderImages: newImagesArr
           })
           return true
         },
-        (error) => {
+        error => {
           console.log(error)
           return false
         }
@@ -100,7 +102,7 @@ export default class Gallery extends Component {
             items={this.state.sliderImages}
             options={{
               index: this.state.index,
-              history: false,
+              history: false
             }}
             onClose={() => this.isOpen(false)}
           />
@@ -111,5 +113,5 @@ export default class Gallery extends Component {
 }
 
 Gallery.propTypes = {
-  images: PropTypes.array.isRequired,
+  images: PropTypes.array.isRequired
 }

@@ -140,11 +140,8 @@ module.exports = {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
-        options: {
-          manualInit: true,
-        },
         stylesPath: `${__dirname}/src/cms/admin.css`,
-        enableIdentityWidget: false
+        enableIdentityWidget: true
       },
     },
     'gatsby-plugin-netlify'
