@@ -2,28 +2,27 @@
 template: SinglePost
 title: Project Post
 status: Published
-date: '2018-01-16'
-featuredImage: >-
-  https://ucarecdn.com/6a00645e-a07d-4c6c-8386-7e0f86bcff84/-/crop/1632x1853/0,596/-/preview/
+date: 2018-01-16
+featuredImage: https://ucarecdn.com/9475f2e2-c5e4-41e7-9ce4-5f1765df754e/
 budget: $100,000
-completed: '2018-01-16'
+completed: 2018-01-16
 architect: Ray Wan
 categories:
   - category: Interior Renovations
   - category: Office Buildings
-gallery:
-- alt: Breaking Ground
-  image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
-  title: Breaking Ground
-- alt: Mid Construction
-  image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
-  title: Mid Construction
-- alt: Project Completed
-  image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
-  title: Project Completed
 meta:
   description: test meta description
   title: test meta title
+gallery:
+  - alt: Breaking Ground
+    image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
+    title: Breaking Ground
+  - alt: Mid Construction
+    image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
+    title: Mid Construction
+  - alt: Project Completed
+    image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
+    title: Project Completed
 ---
 
 This is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language.
