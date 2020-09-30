@@ -1,6 +1,6 @@
 ---
 template: SinglePost
-title: Project Post
+title: 443 Academy Road
 status: Published
 date: 2018-01-16
 featuredImage: https://ucarecdn.com/9475f2e2-c5e4-41e7-9ce4-5f1765df754e/
