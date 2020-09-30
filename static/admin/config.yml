@@ -5,31 +5,18 @@ backend:
 
 local_backend: true
 
-
-# display_url: https://gatsbro.netlify.com # This url will display in the top-right of the CMS
-# media_library:
-#  name: uploadcare
-#  config:
-#    publicKey: a73a170cb5cdef662983
-#    multiple: false
-#    tabs: 'file camera url facebook gdrive'
-#    effects: 'crop,rotate,enhance,grayscale'
-#    imageShrink: '2000x2000'
-#    previewStep: true
-#    previewStep: true
-#    clearable: true
-
-media_library:
-  name: cloudinary
-  output_filename_only: true
+ display_url: winnproconstruction.ca
+ media_library:
+  name: uploadcare
   config:
-    cloud_name: winnpro
-    api_key: 772329431874282
-    default_transformations:
-              -   - fetch_format: auto
-                    quality: auto
-                  - width: 2000
-                    crop: fill
+    publicKey: 1f4ea64f88698fd457e8
+    multiple: false
+    tabs: 'file camera url facebook gdrive'
+    effects: 'crop,rotate,enhance,grayscale'
+    imageShrink: '2000x2000'
+    previewStep: true
+    previewStep: true
+    clearable: true
 
 collections: # A list of collections the CMS should be able to edit
   - name: 'pages'

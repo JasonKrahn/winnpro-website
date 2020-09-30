@@ -2,7 +2,7 @@
 template: HomePage
 slug: ""
 title: WinnPro Construction
-featuredImage: https://res.cloudinary.com/winnpro/image/upload/v1595612913/DSC_2079-1140x460_ofci5g.jpg
+featuredImage: https://ucarecdn.com/48e39e19-b0cb-432c-83fd-a573bbd1fbb2/
 subtitle: Winnipeg's foremost commercial contractors
 section1: >-
   ## Mission Statement
@@ -33,13 +33,13 @@ accordion:
 gallery:
   - alt: WinnPro Headquarters
     image: https://ucarecdn.com/48e39e19-b0cb-432c-83fd-a573bbd1fbb2/
-    title: Best
-  - alt: Best image
+    title: Image 1
+  - alt: Image
     image: https://ucarecdn.com/48e39e19-b0cb-432c-83fd-a573bbd1fbb2/
     title: Best image
-  - alt: Dad's fav treat
-    image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
-    title: Dad's fav treat
+  - alt: Image 2
+    image: https://ucarecdn.com/48e39e19-b0cb-432c-83fd-a573bbd1fbb2/
+    title: Notice the bad crop
 meta:
   description: This is a meta description.
   title: WinnPro Construction Home Page
