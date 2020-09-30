@@ -10,6 +10,9 @@ architect: Jason
 categories:
   - category: Restaurants
   - category: Interior Renovations
+meta:
+  description: test meta description
+  title: test meta title
 gallery:
   - image: https://ucarecdn.com/8fc05f45-2688-4bae-b7df-df14d73ec6b7/
     alt: yup
@@ -21,4 +24,5 @@ gallery:
     alt: yup
     title: yup
 ---
+
 This is Brown's Social House

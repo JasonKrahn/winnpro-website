@@ -133,7 +133,7 @@ module.exports = {
           `source sans pro\:100,300,800`, // you can also specify font weights and styles
         ],
         display: 'swap',
-      },
+      }
     },
     'gatsby-plugin-sitemap',
     {
@@ -142,7 +142,7 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
         stylesPath: `${__dirname}/src/cms/admin.css`,
         enableIdentityWidget: true
-      },
+      }
     },
     'gatsby-plugin-netlify'
     // make sure to keep it last in the array
