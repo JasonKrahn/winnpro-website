@@ -77,24 +77,6 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
-      resolve:`gatsby-plugin-cloudinary-image-gallery`,
-      options: {
-        cloudName: `winnpro`,
-        apiKey: process.env.CLOUDINARY_API_KEY,
-        apiSecret: process.env.CLOUDINARY_API_SECRET,
-      folders: ["Project Posts", "Pages"]
-      }
-  },
-  {
-    resolve:`gatsby-source-cloudinary`,
-    options: {
-      cloudName: `winnpro`,
-      apiKey: process.env.CLOUDINARY_API_KEY,
-      apiSecret: process.env.CLOUDINARY_API_SECRET,
-      resourceType: `image`
-    }
-  },
-    {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
@@ -162,7 +144,7 @@ module.exports = {
           manualInit: true,
         },
         stylesPath: `${__dirname}/src/cms/admin.css`,
-        enableIdentityWidget: true
+        enableIdentityWidget: false
       },
     },
     'gatsby-plugin-netlify'
