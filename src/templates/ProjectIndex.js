@@ -151,7 +151,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             budget
-            completed
+            completed(formatString: "YYYY")
             architect
             date
             categories {

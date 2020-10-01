@@ -42,9 +42,9 @@ export default ({
         <option disabled hidden>
           Type of Enquiry
         </option>
-        <option>Need to know more</option>
-        <option>Found a bug</option>
-        <option>Want to say hello</option>
+        <option>Looking for some information</option>
+        <option>Would like to schedule a meeting</option>
+        <option>Other</option>
       </select>
     </label>
     <label className='Form--Label'>

@@ -27,8 +27,8 @@ const PostCard = ({
       </div>
       {completed && (
         <div className="PostCard--Details">
-          <b>Date Completed: </b>
-          {completed}
+          <b>Year Completed: </b>
+          <time completed={completed}>{completed}</time>
         </div>
       )}
       {budget && (

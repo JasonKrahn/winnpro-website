@@ -310,16 +310,16 @@ collections: # A list of collections the CMS should be able to edit
           label: Featured Image,
           name: featuredImage,
           widget: image,
-          required: false,
+          required: true,
         }
       - { label: Content, name: body, widget: markdown }
       - { label: Budget, name: budget, widget: text }
-      - { label: Completed, name: completed, widget: date, format: 'YYYY-MM-DD' }
+      - { label: Completed, name: completed, widget: date, format: 'YYYY-MM' }
       - { label: Architect, name: architect, widget: text }
       - label: 'Categories'
         name: 'categories'
         widget: 'list'
-        required: false
+        required: true
         fields:
           - label: 'Category'
             name: 'category'

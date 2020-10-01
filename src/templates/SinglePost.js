@@ -67,7 +67,7 @@ export const SinglePostTemplate = ({
             <Content source={body} />
           </div>
           <div className="project-table">
-            <strong>Budget: </strong>{budget}  |  <strong>Date Completed: </strong><time completed={date}>{date}</time>   |   <strong>Architect: </strong>{architect}
+            <strong>Budget: </strong>{budget}  |  <strong>Date Completed: </strong><time completed={completed}>{completed}</time>   |   <strong>Architect: </strong>{architect}
           </div>
           <section className="section">
             <div>
@@ -121,10 +121,6 @@ const SinglePost = ({ data: { post, allPosts } }) => {
 export default SinglePost
 
 export const pageQuery = graphql`
-  ## Query for SinglePost data
-  ## Use GraphiQL interface (http://localhost:8000/___graphql)
-  ## $id is processed via gatsby-node.js
-  ## query name must be unique to this file
   query SinglePost($id: String!) {
     post: markdownRemark(id: { eq: $id }) {
       ...Meta
@@ -135,7 +131,7 @@ export const pageQuery = graphql`
         title
         budget
         architect
-        completed
+        completed(formatString: "MMMM, YYYY")
         template
         subtitle
         date(formatString: "MMMM Do, YYYY")
