@@ -1,7 +1,12 @@
 .SinglePost {
   background: var(--lightGrey);
 }
-
+.SinglePost--Image img {
+  width: 100%;
+  display: block;
+  height: auto;
+  margin-bottom: 2.5rem;
+}
 .SinglePost--BackButton {
   color: white;
   position: relative;

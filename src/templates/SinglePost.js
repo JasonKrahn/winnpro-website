@@ -65,6 +65,7 @@ export const SinglePostTemplate = ({
             </h1>
           )}
           <div className="SinglePost--InnerContent">
+            <div className="SinglePost--Image"><img src={featuredImage} /></div>
             <Content source={body} />
           </div>
           <div className="project-table">
