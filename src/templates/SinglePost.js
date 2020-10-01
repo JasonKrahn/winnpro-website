@@ -4,12 +4,14 @@ import { Link, graphql } from 'gatsby'
 import { ChevronLeft } from 'react-feather'
 
 import Content from '../components/Content'
+import Image from '../components/Image'
 import Layout from '../components/Layout'
 import Gallery from '../components/Gallery'
 import './SinglePost.css'
 
 export const SinglePostTemplate = ({
   title,
+  featuredImage,
   architect,
   budget,
   completed,
@@ -57,7 +59,6 @@ export const SinglePostTemplate = ({
               </Fragment>
             )}
           </div>
-
           {title && (
             <h1 className="SinglePost--Title" itemProp="title">
               {title}
@@ -129,6 +130,7 @@ export const pageQuery = graphql`
       id
       frontmatter {
         title
+        featuredImage
         budget
         architect
         completed(formatString: "MMMM, YYYY")
