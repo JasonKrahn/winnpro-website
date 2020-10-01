@@ -1,27 +1,28 @@
 ---
 template: SinglePost
-title: Jollibee
+title: Jollibee Northgate
 status: Published
 date: 2018-01-16
-featuredImage: https://ucarecdn.com/9475f2e2-c5e4-41e7-9ce4-5f1765df754e/
+featuredImage: https://ucarecdn.com/0d0347a0-4f58-4744-ad94-e860b4226640/
 budget: $1,200,000
 completed: 2016-02-01
 architect: Raymond S.C Wan, Architect Inc.
 categories:
   - category: Restaurants
-meta:
-  description: Canada’s first Jollibee has finally landed here in Winnipeg and WinnPro was awarded the opportunity to be the General Contractor.
-  title: Jollibee Northgate Construction
 gallery:
-  - alt: 
-    image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
-    title: Mid-construction
-  - alt: Mid Construction
-    image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
-    title: Outside
-  - alt: Project Completed
-    image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
-    title: Grand Opening
+  - alt: Framing Jollibee Northgate
+    image: https://ucarecdn.com/471e8b1e-7677-4d39-983d-e642a70b610e/
+    title: Framing
+  - alt: Kitchen appliance installation
+    image: https://ucarecdn.com/9f43d428-e938-402b-ac50-2938aec0e4ac/
+    title: Appliance Installation
+  - alt: Completed Interior
+    image: https://ucarecdn.com/87258cc3-beb6-4d74-87b8-78d82bad64f6/
+    title: Jollibee completed interior
+meta:
+  description: Canada’s first Jollibee has finally landed here in Winnipeg and
+    WinnPro was awarded the opportunity to be the General Contractor.
+  title: Jollibee Northgate Construction
 ---
 
 Canada’s first Jollibee has finally landed here in Winnipeg and WinnPro was awarded the opportunity to be the General Contractor. We’ve had the pleasure of working directly with the Jollibee Team as well as Raymond S.C. Wan Architect to complete the project just in time for the busy Christmas season.
