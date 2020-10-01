@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import { MapPin, Smartphone, Mail } from 'react-feather'
 import { graphql } from 'gatsby'
 
@@ -71,9 +72,27 @@ const ContactPage = ({ data: { page } }) => (
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
   >
+    <Helmet>
+  <script type="application/ld+json">
+    {`
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "https://www.spookytech.com",
+          "name": "WinnPro Construction",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-204-989-5941",
+            "contactType": "Customer Support"
+          }
+        }
+      `}
+  </script>
+</Helmet>
     <ContactPageTemplate {...page.frontmatter} body={page.html} />
   </Layout>
 )
+
 
 export default ContactPage
 
