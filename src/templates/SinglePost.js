@@ -4,7 +4,6 @@ import { Link, graphql } from 'gatsby'
 import { ChevronLeft } from 'react-feather'
 
 import Content from '../components/Content'
-import Image from '../components/Image'
 import Layout from '../components/Layout'
 import Gallery from '../components/Gallery'
 import './SinglePost.css'
@@ -65,7 +64,7 @@ export const SinglePostTemplate = ({
             </h1>
           )}
           <div className="SinglePost--InnerContent">
-            <div className="SinglePost--Image"><img src={featuredImage} /></div>
+            <div className="SinglePost--Image"><img alt={`${title} Feature`} src={`${featuredImage}-/progressive/yes/-/format/auto/-/quality/lighter/-/resize/750x/`} /> </div>
             <Content source={body} />
           </div>
           <div className="project-table">

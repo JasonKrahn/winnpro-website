@@ -33,8 +33,6 @@ section2: |-
   - Commercial offices
   - Retail
 
-  [Read more about our services](#accordion)
-
 video: 
 videoPoster: https://res.cloudinary.com/winnpro/image/upload/v1599248541/Project%20Posts/Berts%20Picks/20191027_072238_ozvgxp.jpg
 videoTitle: "Serving Winnipeg for 15 years"

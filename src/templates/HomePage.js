@@ -57,7 +57,7 @@ export const HomePageTemplate = ({
 
     <section className="section">
       <div className="container">
-        <a id="accordion"></a><Accordion items={accordion} />
+        <Accordion items={accordion} />
       </div>
     </section>
 
