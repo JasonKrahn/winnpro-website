@@ -2,8 +2,9 @@
 template: ProjectIndex
 title: Commercial Renovations
 subtitle: Commercial renovations construction
+featuredImage: https://ucarecdn.com/cfbf9039-efb1-418a-b96d-e91603cfd0b2/-/crop/2880x1675/0,218/-/preview/
 meta:
   noindex: true
   title: Commercial Renovations
-featuredImage: 'https://ucarecdn.com/1ec21291-77f7-4fe9-ac70-fce7e76fcd1c/grantparkwinnipegwinnpro3.jpg'
+  description: WinnPro Commercial Renovations
 ---
