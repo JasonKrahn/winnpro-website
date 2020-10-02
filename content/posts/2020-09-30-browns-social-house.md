@@ -3,7 +3,7 @@ template: SinglePost
 title: Browns Social House
 status: Published
 date: 2020-10-01
-featuredImage: https://ucarecdn.com/143f0f72-d1a7-4193-9b08-c5b66bc691e6/
+featuredImage: https://ucarecdn.com/3a8a014a-903f-4e54-8075-3af3dc131a35/
 budget: 123,000
 completed: 2020-09-18
 architect: Jason
@@ -11,18 +11,19 @@ categories:
   - category: Restaurants
   - category: Interior Renovations
 gallery:
-  - image: https://ucarecdn.com/8fc05f45-2688-4bae-b7df-df14d73ec6b7/
-    alt: yup
-    title: yup
-  - image: https://ucarecdn.com/250d76e4-2e02-497d-b41c-06997f65dcaa/
-    alt: yup
-    title: yup
-  - image: https://ucarecdn.com/04215d73-3fcf-471b-b7c9-19bc48e419e4/
-    alt: yup
-    title: yup
+  - image: https://ucarecdn.com/39e1dbc3-b6d3-4232-bb81-4c7c56c99a59/
+    alt: Browns Social House Exterior
+    title: Exterior
+  - image: https://ucarecdn.com/d38d8895-cd6e-4538-aa67-eb2a76e0df45/
+    alt: Browns Social House Interior
+    title: Interior
+  - image: https://ucarecdn.com/b9b77ed9-7428-4146-81d8-46b26a5e4879/
+    alt: Finishing work on interior of Browns Social House
+    title: Finishing
 meta:
-  description: test meta description
-  title: test meta title
+  description: "WinnPro Construction built Browns Social House on Portage Avenue,
+    Winnipeg. "
+  title: Browns Social House
 ---
 
 This is Brown's Social House
