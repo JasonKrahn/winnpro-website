@@ -2,7 +2,7 @@
 template: NewsPage
 slug: aboutus
 title: About Us
-featuredImage: https://res.cloudinary.com/winnpro/image/upload/v1595616870/DJI_0005_md5mn9.jpg
+featuredImage: https://ucarecdn.com/e7f7bcca-8076-4879-bf9e-e561e1ccb9af/
 meta:
   description: test meta description
   title: test meta title
