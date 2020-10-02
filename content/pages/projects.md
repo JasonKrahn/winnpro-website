@@ -2,7 +2,7 @@
 template: ProjectIndex
 slug: projects
 title: Completed Projects
-featuredImage: https://ucarecdn.com/6c0a0b01-12bf-4d1c-b9e7-a1d8765dea32/
+featuredImage: https://ucarecdn.com/116b1881-de0f-4453-94c7-c748a260a741/-/crop/1492x845/0,47/-/preview/
 subtitle: Below is a selection of completed commercial construction projects
 meta:
   description: "Our commercial construction project portfolio include restaurants,
