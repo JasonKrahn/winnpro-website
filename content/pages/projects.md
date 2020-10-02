@@ -2,9 +2,10 @@
 template: ProjectIndex
 slug: projects
 title: Completed Projects
-featuredImage: https://ucarecdn.com/6f5b14a4-d2b3-4803-bd9f-8d88017365ea/-/crop/2100x1354/209,314/-/preview/
+featuredImage: https://ucarecdn.com/6c0a0b01-12bf-4d1c-b9e7-a1d8765dea32/
 subtitle: Below is a selection of completed commercial construction projects
 meta:
-  description: This is a meta description.
+  description: "Our commercial construction project portfolio include restaurants,
+    offices, commercial renovations and large scale projects. "
   title: WinnPro's Completed Project Portfolio
 ---
