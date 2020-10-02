@@ -4,43 +4,13 @@ slug: news
 title: News
 featuredImage: https://res.cloudinary.com/winnpro/image/upload/v1595616870/DJI_0005_md5mn9.jpg
 meta:
-  description: test meta description
-  title: test meta title
+  description: WinnPro Construction News
+  title: WinnPro Construction News
 ---
+## Exciting News!
 
-## This is the NewstPage template
+Something new has begun at WinnPro Construction. We are very proud to announce the construction of our New Head Office. We have been growing as a company over the last few years. Having a fresh, contemporary work space where we can merge our Accounting Department and Construction Office together under one roof will allow for an optimal work environment for both in the office and out in the field.
 
-Paragraphs are separated by a blank line.
 
-The second paragraph. This is placeholder text that our web designers put here to make sure words appear properly on your website. _Italic_, **bold**, and `monospace`.
 
-### Unordered lists:
-
-npm link sanity-plugin-asset-source-cloudinary
-
-- this one
-- that one
-- the other one
-
-### Ordered lists:
-
-1.  first item
-1.  second item
-1.  third item
-
-> Block quotes are written like so.
->
-> They can span multiple paragraphs,
-> if you like.
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
+The new office will be located on Speers Rd., and the building will be just over 5000SQ ft. Construction is already in motion, and we plan to be completed and ready to move- in the New Year! We’re on the edge of our seats with excitement and anticipation to see what the end results will look like; but for now–take a look at the progress we have so far!
