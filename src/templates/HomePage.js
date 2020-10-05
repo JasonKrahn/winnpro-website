@@ -6,7 +6,6 @@ import Layout from '../components/Layout.js'
 import Accordion from '../components/Accordion'
 import BackgroundVideo from '../components/BackgroundVideo'
 import Gallery from '../components/Gallery'
-import Popup from '../components/Popup'
 import PageHeader from '../components/PageHeader'
 
 // Export Template for use in CMS preview
@@ -58,14 +57,6 @@ export const HomePageTemplate = ({
     <section className="section">
       <div className="container">
         <Accordion items={accordion} />
-      </div>
-    </section>
-
-    <section className="section">
-      <div className="container">
-        <Popup>
-          <Content source={section1} />
-        </Popup>
       </div>
     </section>
   </main>
