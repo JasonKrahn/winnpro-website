@@ -18,6 +18,6 @@ meta:
   title: Crossroads Shopping Centre
   description: Crossroads Shopping Centre construction project by WinnPro Construction
 ---
-Located at 1579 Regent Ave. 
+Located at 1579 Regent Ave.
 
 Designed by Ray Wan

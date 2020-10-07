@@ -129,8 +129,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Exo 2`,
-          `source sans pro\:100,400,600,700`, // you can also specify font weights and styles
+          `Exo 2`, // you can also specify font weights and styles
         ],
         display: 'swap',
       }

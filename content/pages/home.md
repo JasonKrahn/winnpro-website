@@ -25,14 +25,14 @@ section1: >-
   At WinnPro, we are proud of the structures and spaces we have been a part of creating with our customers, and look forward to continuing to working together on projects that add value to our community and landscape while bring the results you deserve.
 gallery:
   - alt: Project 1
-    image: https://ucarecdn.com/471e8b1e-7677-4d39-983d-e642a70b610e/jollibeewinnipegwinnpro3.jpg
-    title: Image 1
+    image: https://ucarecdn.com/0719d096-c562-4bd9-96a1-9ea6362416a5/
+    title: 233 Fake Place
   - alt: Image
-    image: https://ucarecdn.com/6f5b14a4-d2b3-4803-bd9f-8d88017365ea/completedprojects.jpg
-    title: Project 2
+    image: https://ucarecdn.com/c5e798e8-f3b7-4df5-b89d-974402eb980c/
+    title: 893 Not Real Co.
   - alt: Image 2
-    image: https://ucarecdn.com/6c0a0b01-12bf-4d1c-b9e7-a1d8765dea32/StadiumCenterDrome11024x576_sqkjdf.jpg
-    title: Project 3
+    image: https://ucarecdn.com/87258cc3-beb6-4d74-87b8-78d82bad64f6/
+    title: 542 Regent
 section2: >-
   WinnPro Construction Ltd. is a first generation general contractor based in
   Winnipeg, Manitoba. We have local management, labor expertise and we have a
@@ -50,8 +50,8 @@ section2: >-
   - Commercial offices
 
   - Retail
-video: https://res.cloudinary.com/winnpro/video/upload/e_overlay,f_auto,o_100,q_auto/v1601655029/480-bg-vid_zxou94.mov
-videoPoster: https://res.cloudinary.com/winnpro/image/upload/v1599248541/Project%20Posts/Berts%20Picks/20191027_072238_ozvgxp.jpg
+video: https://res.cloudinary.com/winnpro/video/upload/c_scale,f_auto,fl_progressive,g_center,w_1000,x_12,y_0/v1602042304/hq-cover_ji3oik.mp4
+videoPoster: https://res.cloudinary.com/winnpro/image/upload/v1602043005/DJI_0005_md5mn9.jpg
 videoTitle: Serving Winnipeg for 15 years
 accordion:
   - description: Project management is known to be a combination of art and science;

@@ -23,9 +23,9 @@
 }
 
 .SVGIcon:hover {
-  background: yellow;
+  background: rgb(88, 33, 26);
 }
 
 .SVGIcon:hover .SVGIcon--icon {
-  background: purple;
+  background: rgb(102, 102, 102);
 }

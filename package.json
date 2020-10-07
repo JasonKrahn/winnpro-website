@@ -1,8 +1,8 @@
 {
   "name": "winnpro",
-  "HomePage": "https://yellowcake.netlify.com/",
-  "description": "An opinionated starter project for creating lightning-fast websites with Gatsby v2 and Netlify CMS v2",
-  "version": "2.0.0",
+  "HomePage": "https://winnproconstruction.com",
+  "description": "WinnPro Construction's Website",
+  "version": "3.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/JasonKrahn/yellowcake"
@@ -10,25 +10,25 @@
   "dependencies": {
     "@reach/router": "^1.2.1",
     "dom-form-serializer": "^1.0.7",
-    "gatsby": "^2.17.7",
+    "gatsby": "^2.24.67",
     "gatsby-image": "^2.2.30",
     "gatsby-plugin-google-fonts": "^1.0.1",
-    "gatsby-plugin-google-tagmanager": "^2.1.15",
-    "gatsby-plugin-manifest": "^2.2.26",
+    "gatsby-plugin-google-tagmanager": "^2.3.14",
+    "gatsby-plugin-manifest": "^2.4.33",
     "gatsby-plugin-netlify": "^2.1.23",
     "gatsby-plugin-netlify-cms": "^4.1.26",
     "gatsby-plugin-nprogress": "^2.1.12",
-    "gatsby-plugin-offline": "^3.0.17",
+    "gatsby-plugin-offline": "^3.2.30",
     "gatsby-plugin-postcss": "^2.1.13",
     "gatsby-plugin-react-helmet": "^3.1.13",
     "gatsby-plugin-sass": "^2.1.20",
-    "gatsby-plugin-sharp": "^2.2.36",
+    "gatsby-plugin-sharp": "^2.6.38",
     "gatsby-plugin-sitemap": "^2.2.19",
-    "gatsby-remark-images": "^3.1.28",
+    "gatsby-remark-images": "^3.3.32",
     "gatsby-remark-relative-images": "^0.2.3",
-    "gatsby-remark-responsive-iframe": "^2.2.25",
-    "gatsby-source-filesystem": "^2.1.35",
-    "gatsby-transformer-remark": "^2.6.32",
+    "gatsby-remark-responsive-iframe": "^2.4.16",
+    "gatsby-source-filesystem": "^2.3.32",
+    "gatsby-transformer-remark": "^2.8.37",
     "gatsby-transformer-sharp": "^2.3.2",
     "gatsby-transformer-yaml": "^2.2.15",
     "google-map-react": "^1.1.6",
@@ -54,7 +54,8 @@
   "main": "n/a",
   "scripts": {
     "start": "npm run clean && npm run develop",
-    "build": "gatsby build",
+    "build": "gatsby build --verbose",
+    "firebase-deploy": "firebase deploy --only hosting:winnpro",
     "develop": "gatsby develop",
     "clean": "del-cli .cache public",
     "serve": "gatsby serve",
@@ -63,6 +64,7 @@
   },
   "devDependencies": {
     "del-cli": "^3.0.0",
-    "prettier": "^2.1.1"
+    "prettier": "^2.1.1",
+    "firebase-tools": "8.11.2"
   }
 }
