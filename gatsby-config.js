@@ -1,10 +1,10 @@
 const postcssPresetEnv = require('postcss-preset-env')
-require('dotenv').config();
+require('dotenv').config()
 
 module.exports = {
   siteMetadata: {
     title: 'WinnPro',
-    siteUrl: 'https://quirky-blackwell-1dd863.netlify.app'
+    siteUrl: 'https://quirky-blackwell-1dd863.netlify.app',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -25,22 +25,22 @@ module.exports = {
             // Use cacheFirst since these don't need to be revalidated (same RegExp
             // and same reason as above)
             urlPattern: /(\.js$|\.css$|static\/)/,
-            handler: `cacheFirst`
-          }, 
+            handler: `cacheFirst`,
+          },
           {
             // Add runtime caching of various other page resources
             urlPattern: /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
-            handler: `staleWhileRevalidate`
+            handler: `staleWhileRevalidate`,
           },
           {
             // uploadcare
             urlPattern: /^https:\/\/ucarecdn.com\/[-a-zA-Z0-9@:%_\+.~#?&//=]*?\/10x\//,
-            handler: `staleWhileRevalidate`
-          }
+            handler: `staleWhileRevalidate`,
+          },
         ],
         skipWaiting: true,
-        clientsClaim: true
-      }
+        clientsClaim: true,
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -62,15 +62,15 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/static/images`,
-        name: 'images'
-      }
+        name: 'images',
+      },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/content`,
-        name: 'pages'
-      }
+        name: 'pages',
+      },
     },
 
     // images
@@ -87,12 +87,12 @@ module.exports = {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 800,
-              linkImagesToOriginal: false
-            }
+              linkImagesToOriginal: false,
+            },
           },
-          `gatsby-remark-responsive-iframe`
-        ]
-      }
+          `gatsby-remark-responsive-iframe`,
+        ],
+      },
     },
 
     // css (replace with gatsby-plugin-sass for v2)
@@ -101,20 +101,20 @@ module.exports = {
       options: {
         postCssPlugins: [
           postcssPresetEnv({
-            browsers: '> 0.5%, last 2 versions, ie 11'
-          })
-        ]
-      }
+            browsers: '> 0.5%, last 2 versions, ie 11',
+          }),
+        ],
+      },
     },
     {
       resolve: `gatsby-plugin-postcss`,
       options: {
         postCssPlugins: [
           require(`postcss-preset-env`)({
-            browsers: '> 0.5%, last 2 versions, ie 11'
-          })
-        ]
-      }
+            browsers: '> 0.5%, last 2 versions, ie 11',
+          }),
+        ],
+      },
     },
     {
       resolve: 'gatsby-plugin-nprogress',
@@ -122,8 +122,8 @@ module.exports = {
         // Setting a color is optional.
         color: 'white',
         // Disable the loading spinner.
-        showSpinner: false
-      }
+        showSpinner: false,
+      },
     },
     {
       resolve: `gatsby-plugin-google-fonts`,
@@ -132,7 +132,7 @@ module.exports = {
           `Exo 2`, // you can also specify font weights and styles
         ],
         display: 'swap',
-      }
+      },
     },
     'gatsby-plugin-sitemap',
     {
@@ -140,10 +140,10 @@ module.exports = {
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
         stylesPath: `${__dirname}/src/cms/admin.css`,
-        enableIdentityWidget: true
-      }
+        enableIdentityWidget: false,
+      },
     },
-    'gatsby-plugin-netlify'
+    'gatsby-plugin-netlify',
     // make sure to keep it last in the array
-  ]
+  ],
 }

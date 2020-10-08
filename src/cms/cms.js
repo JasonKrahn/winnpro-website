@@ -2,15 +2,15 @@ import React from 'react'
 import CMS from 'netlify-cms-app'
 import './cms-utils'
 
-import { HomePageTemplate } from '../templates/HomePage';
-import { ServicesPageTemplate } from '../templates/ServicesPage';
-import { ContactPageTemplate } from '../templates/ContactPage';
-import { NewsPageTemplate } from '../templates/NewsPage';
-import { ProjectIndexTemplate } from '../templates/ProjectIndex';
-import { SinglePostTemplate } from '../templates/SinglePost';
-import uploadcare from 'netlify-cms-media-library-uploadcare';
+import { HomePageTemplate } from '../templates/HomePage'
+import { ServicesPageTemplate } from '../templates/ServicesPage'
+import { ContactPageTemplate } from '../templates/ContactPage'
+import { NewsPageTemplate } from '../templates/NewsPage'
+import { ProjectIndexTemplate } from '../templates/ProjectIndex'
+import { SinglePostTemplate } from '../templates/SinglePost'
+import uploadcare from 'netlify-cms-media-library-uploadcare'
 
-CMS.registerMediaLibrary(uploadcare);
+CMS.registerMediaLibrary(uploadcare)
 
 if (
   window.location.hostname === 'localhost' &&

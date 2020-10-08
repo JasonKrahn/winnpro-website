@@ -64,16 +64,31 @@ export const SinglePostTemplate = ({
             </h1>
           )}
           <div className="SinglePost--InnerContent">
-            <div className="SinglePost--Image"><img alt={`${title} Feature`} src={`${featuredImage}-/progressive/yes/-/format/auto/-/quality/lighter/-/resize/750x/`} /> </div>
+            <div className="SinglePost--Image">
+              <img
+                alt={`${title} Feature`}
+                src={`${featuredImage}-/progressive/yes/-/format/auto/-/quality/lighter/-/resize/750x/`}
+              />{' '}
+            </div>
+            <div>
+              <strong>Budget: </strong>
+              {budget}
+            </div>
+            <div>
+              <strong>Date Completed: </strong>
+              <time completed={completed}>{completed}</time>
+            </div>
+            <div>
+              <strong>Architect: </strong>
+              {architect}
+            </div>
+            <br></br>
             <Content source={body} />
           </div>
-          <div className="project-table">
-            <strong>Budget: </strong>{budget}  |  <strong>Date Completed: </strong><time completed={completed}>{completed}</time>   |   <strong>Architect: </strong>{architect}
-          </div>
           <section className="section">
-            <div>
-            <h2>Project Photos</h2>
-            <Gallery images={gallery} />
+            <div className="SinglePost--InnerContent">
+              <h2>Project Photos</h2>
+              <Gallery className="Gallery--Item" images={gallery} />
             </div>
           </section>
           <div className="SinglePost--Pagination">

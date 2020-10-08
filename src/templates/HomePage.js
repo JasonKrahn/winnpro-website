@@ -7,7 +7,6 @@ import Accordion from '../components/Accordion'
 import BackgroundVideo from '../components/BackgroundVideo'
 import Gallery from '../components/Gallery'
 import PageHeader from '../components/PageHeader'
-import { AlignCenter } from 'react-feather'
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({
@@ -43,7 +42,12 @@ export const HomePageTemplate = ({
     <section className="section">
       <div className="container">
         <Accordion items={accordion} />
-        <center><Link className="Button" to="/contact/">Contact Us</Link></center>
+        <br></br>
+        <center>
+          <Link className="Button" to="/contact/">
+            Contact Us
+          </Link>
+        </center>
       </div>
     </section>
     <section className="section">
@@ -57,7 +61,6 @@ export const HomePageTemplate = ({
         <Content source={section2} />
       </div>
     </section>
-
   </main>
 )
 

@@ -13,7 +13,7 @@ class GoogleMap extends Component {
       lat: 49.872742,
       lng: -97.0733842,
     },
-    zoom: 15,
+    zoom: 16,
   }
 
   render() {
@@ -48,7 +48,7 @@ const Marker = () => {
           target="_blank"
           rel="noreferrer"
         >
-          Winnpro
+          Winnpro Office
         </a>
       </div>
     </div>

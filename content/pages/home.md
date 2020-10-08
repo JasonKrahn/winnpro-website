@@ -33,22 +33,7 @@ gallery:
     image: https://ucarecdn.com/87258cc3-beb6-4d74-87b8-78d82bad64f6/
     title: 542 Regent
 section2: >-
-  WinnPro Construction Ltd. is a first generation general contractor based in
-  Winnipeg, Manitoba. We have local management, labor expertise and we have a
-  pool of qualified subcontractors who are able to meet our specific
-  construction requirements.
-
-
-  WinnPro’s expertise lies in general contracting; project management, and design build. We have completed projects in multiple sectors of the commercial world including:
-
-
-  - Food industries
-
-  - Industrial projects
-
-  - Commercial offices
-
-  - Retail
+  ![procore core](/images/core-and-procore.jpg)
 video: https://res.cloudinary.com/winnpro/video/upload/c_scale,f_auto,fl_progressive,g_center,w_1000,x_12,y_0/v1602042304/hq-cover_ji3oik.mp4
 videoPoster: https://res.cloudinary.com/winnpro/image/upload/v1602043005/DJI_0005_md5mn9.jpg
 videoTitle: Serving Winnipeg for 15 years
@@ -115,7 +100,7 @@ accordion:
       shelving, emergency lighting, testing of fire extinguishers (and all other
       items installed for safety) and any other repairs or maintenance that you
       may require.
-    title: Building Maintenance Services
+    title: Building Maintenance
     content: A well-maintained workplace can create the right impression, improve
       employee efficiency, and reduce your operational costs while keeping the
       customer experience a priority.Our experienced building maintenance team

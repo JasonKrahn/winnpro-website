@@ -1,7 +1,7 @@
 .BackgroundVideo-section {
   position: relative;
   overflow: hidden;
-  height: 40rem;
+  height: 50rem;
 }
 .BackgroundVideo {
   display: block;
@@ -31,7 +31,7 @@
   position: absolute;
   top: 50%;
   left: 0;
-  transform: translate(0, -50%);
+  transform: translate(0, -25%);
   font-size: 4rem;
   font-weight: bold;
   width: 100%;
@@ -44,8 +44,8 @@
   position: absolute;
   top: 50%;
   left: 0;
-  transform: translate(0, -25%);
-  font-size: 2rem;
+  transform: translate(0, -20%);
+  font-size: 4rem;
   font-weight: bold;
   width: 100%;
   text-align: center;

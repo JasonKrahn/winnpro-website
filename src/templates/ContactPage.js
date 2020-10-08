@@ -73,8 +73,8 @@ const ContactPage = ({ data: { page } }) => (
     title={page.frontmatter.title || false}
   >
     <Helmet>
-  <script type="application/ld+json">
-    {`
+      <script type="application/ld+json">
+        {`
         {
           "@context": "https://schema.org",
           "@type": "Organization",
@@ -87,12 +87,11 @@ const ContactPage = ({ data: { page } }) => (
           }
         }
       `}
-  </script>
-</Helmet>
+      </script>
+    </Helmet>
     <ContactPageTemplate {...page.frontmatter} body={page.html} />
   </Layout>
 )
-
 
 export default ContactPage
 

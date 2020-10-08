@@ -65,8 +65,9 @@ export class Navigation extends Component {
                     : ''
                 }`}
                 onClick={() => this.toggleSubNav('posts')}
-              >Completed Projects
-              <div className="Nav--GroupLinks">
+              >
+                Completed Projects
+                <div className="Nav--GroupLinks">
                   <NavLink to="/projects/" className="Nav--GroupLink">
                     All
                   </NavLink>
@@ -85,7 +86,9 @@ export class Navigation extends Component {
             <NavLink to="/news/">News</NavLink>
             <NavLink to="/aboutus/">About Us</NavLink>
             <NavLink to="/contact/">Contact</NavLink>
-            <a href="https://winnpro-blog.netlify.app/">Blog <img width="18" src="/images/Ei-external-link.svg" /></a>
+            <a href="https://winnpro-blog.netlify.app/">
+              Blog <img width="18" src="/images/Ei-external-link.svg" />
+            </a>
           </div>
           <button
             className="Button-blank Nav--MenuButton"

@@ -13,7 +13,7 @@ class Popup extends Component {
 
   togglePopup() {
     this.setState({
-      showPopup: !this.state.showPopup
+      showPopup: !this.state.showPopup,
     })
   }
 
