@@ -130,7 +130,7 @@ module.exports = {
         fonts: [
           `Exo 2`, // you can also specify font weights and styles
         ],
-        display: 'swap',
+        display: '',
       },
     },
     'gatsby-plugin-sitemap',
