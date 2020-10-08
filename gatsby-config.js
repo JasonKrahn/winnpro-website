@@ -14,7 +14,6 @@ module.exports = {
       options: {
         /*id: 'GTM-add_your_tag_here',*/
         id: 'GTM-N8XK2GT',
-        includeInDevelopment: true,
       },
     },
     {
