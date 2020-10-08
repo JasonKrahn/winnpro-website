@@ -54,6 +54,7 @@
   "main": "n/a",
   "scripts": {
     "start": "npm run clean && npm run develop",
+    "rebuild": "npm run clean && npm install && npm run build",
     "build": "gatsby build --verbose",
     "firebase-deploy": "firebase deploy --only hosting:winnpro",
     "develop": "gatsby develop",
