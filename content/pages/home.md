@@ -112,6 +112,6 @@ accordion:
       lighting, testing of fire extinguishers (and all other items installed for
       safety) and any other repairs or maintenance that you may require.
 meta:
-  description: This is a meta description.
-  title: WinnPro Construction Home Page
+  description: WinnPro Construction Ltd. is a customer focused commercial builder with over 15 years in the industry. Based in Winnipeg Manitoba.
+  title: WinnPro Construction Home
 ---
