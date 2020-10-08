@@ -2,10 +2,10 @@
 template: NewsPage
 slug: aboutus
 title: About Us
-featuredImage: https://ucarecdn.com/e7f7bcca-8076-4879-bf9e-e561e1ccb9af/
+featuredImage: https://cdn.pixabay.com/photo/2014/12/15/14/02/construction-worker-569126_960_720.jpg
 meta:
   description: "WinnPro Construction is Winnipeg's premier commercial construction
-    contractors. "
+    contractors."
   title: About WinnPro Construction
 ---
 ## Serving Winnipeg for 15 years

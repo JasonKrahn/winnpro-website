@@ -32,6 +32,10 @@ export const HomePageTemplate = ({
     <section className="section">
       <div className="container">
         <Content source={section1} />
+        <br></br>
+        <Link className="Button" to="/contact/">
+            Contact Us
+          </Link>
       </div>
     </section>
     <section className="BackgroundVideo-section section">
@@ -42,12 +46,7 @@ export const HomePageTemplate = ({
     <section className="section">
       <div className="container">
         <Accordion items={accordion} />
-        <br></br>
-        <center>
-          <Link className="Button" to="/contact/">
-            Contact Us
-          </Link>
-        </center>
+
       </div>
     </section>
     <section className="section">
