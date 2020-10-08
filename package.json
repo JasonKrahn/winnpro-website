@@ -65,6 +65,7 @@
   "devDependencies": {
     "del-cli": "^3.0.0",
     "prettier": "^2.1.1",
-    "firebase-tools": "8.11.2"
+    "firebase-tools": "8.11.2",
+    "@firebase/remote-config": "0.1.28"
   }
 }

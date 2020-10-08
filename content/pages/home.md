@@ -22,7 +22,6 @@ section1: >-
   We strive to achieve long-term relationships with our partners and customers. We recognize the value of experience, hard work, and standing by your word; listening to your needs to understand your specifications and create the space you want.
 
 
-  At WinnPro, we are proud of the structures and spaces we have been a part of creating with our customers, and look forward to continuing to working together on projects that add value to our community and landscape while bring the results you deserve.
 gallery:
   - alt: Project 1
     image: https://ucarecdn.com/0719d096-c562-4bd9-96a1-9ea6362416a5/
