@@ -5,12 +5,25 @@ title: Services
 featuredImage: https://res.cloudinary.com/winnpro/image/upload/v1595612913/DSC_4742-1140x460_oodhfo.jpg
 subtitle: WinnPro Services
 section1: >-
-  
+  WinnPro Construction’s expertise lies in general contracting, project
+  management and design build. We have built our reputation as a reliable
+  construction partner in multiple sectors of the commercial world, including:
 
-  A sem vel nec sodales mi vivamus senectus sed potenti a parturient nascetur tincidunt nisi pulvinar rhoncus a. Risus imperdiet taciti suspendisse facilisi a per metus cubilia varius a nostra adipiscing amet ultrices quisque ac mi a.
+
+  * Restaurants and grocery stories
+
+  * Retail stores
+
+  * Cannabis and liquor stores
+
+  * Commercial offices
+
+  * Paramedical clinics, including physiotherapy clinics
+
+  * Shopping centres
 
 
-  [Dictumst a ultrices mi]() a dignissim ad fermentum eget a nam et a blandit scelerisque. Taciti lorem tempor quam vestibulum dis habitasse vestibulum diam vel est ut proin dis auctor. Suscipit sceler isque orci magna interdum vel bibendum duis netus a consectetur dui magnis ac aliquet sem posuere tincidunt vestibulum.
+  We work primarily in the Winnipeg and Brandon area, but we travel frequently to Northern Manitoba to work with clients in The Pas and Churchill. We also build in Edmonton and Calgary, Alberta.
 section2: |-
   ## You can use videos, images and text.
 
@@ -22,13 +35,20 @@ videoPoster: https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/
 videoTitle: Also background videos, with poster image & title overlay.
 accordion:
   - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
+    title: General Contracting
   - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
+    title: Project Management
   - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
+    title: Design Build
+  - description: Our experienced building maintenance team is here to keep your
+      building safe, welcoming and functional for your customers or employees.
+      Building maintenance projects include repairing or replacing flooring,
+      walls, ceilings, roofing, walkways and parking areas. We can also replace
+      lighting, fixtures, counter tops, cabinets, mirrors, glass, display cases,
+      shelving and signage. We're certified to install emergency lighting and
+      test fire extinguishers. You can trust the WinnPro team work to your high
+      standards for cleanliness, safety and accessibility.
+    title: Building Maintenance Services
 gallery:
   - alt: yellow rope image
     image: https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/
