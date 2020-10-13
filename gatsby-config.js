@@ -128,9 +128,23 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Exo 2`, // you can also specify font weights and styles
+          `Exo 2`,
+          `Open Sans`, 
         ],
-        display: '',
+        display: 'swap',
+      },
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Exo 2`,
+            variants: [`300`,`400`,`500`,`600`],
+            subsets: ["latin-ext"]
+          },
+        ],
+      formats: ["woff", "woff2"]
       },
     },
     'gatsby-plugin-sitemap',
