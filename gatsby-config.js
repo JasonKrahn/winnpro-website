@@ -134,6 +134,7 @@ module.exports = {
         display: 'swap',
       },
     },
+    /*
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
@@ -147,6 +148,7 @@ module.exports = {
       formats: ["woff", "woff2"]
       },
     },
+    */
     'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-netlify-cms',
