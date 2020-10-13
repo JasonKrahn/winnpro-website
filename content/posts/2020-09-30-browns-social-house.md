@@ -1,6 +1,6 @@
 ---
 template: SinglePost
-title: Browns Social House
+title: Browns Social House Downtown
 status: Published
 date: 2020-10-01
 featuredImage: https://ucarecdn.com/3a8a014a-903f-4e54-8075-3af3dc131a35/
