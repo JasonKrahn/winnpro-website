@@ -1,9 +1,9 @@
-# See https://github.com/netlify/netlify-cms/blob/master/example/config.yml
+# caution, file is delicate
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
-display_url: https://winnpro-blog.netlify.com # This url will display in the top-right of the CMS
+display_url: winnproconstruction.ca # This url will display in the top-right of the CMS
 media_library:
   name: uploadcare
   config:
@@ -78,12 +78,13 @@ collections: # A list of collections the CMS should be able to edit
             name: 'meta'
             widget: 'object'
             fields:
-              - { label: Title, name: title, widget: string, required: false }
+              - { label: Title, name: title, widget: string, pattern: ['^.{5,60}$', "Must have 5 - 60 characters"], required: true }
               - {
                   label: Description,
                   name: description,
                   widget: text,
-                  required: false,
+                  required: true,
+                  pattern: ['^.{5,160}$', "Must have 5 - 160 characters"],
                 }
               - {
                   label: Canonical Link,
@@ -117,12 +118,13 @@ collections: # A list of collections the CMS should be able to edit
             name: 'meta'
             widget: 'object'
             fields:
-              - { label: Title, name: title, widget: string, required: false }
+              - { label: Title, name: title, widget: string, pattern: ['^.{5,60}$', "Must have 5 - 60 characters"], required: true }
               - {
                   label: Description,
                   name: description,
                   widget: text,
-                  required: false,
+                  required: true,
+                  pattern: ['^.{5,160}$', "Must have 5 - 160 characters"],
                 }
               - {
                   label: Canonical Link,
@@ -168,18 +170,19 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - { name: image, label: Image, widget: image }
               - { name: alt, label: Alt, widget: string }
-              - { name: title, label: Title, widget: string, required: false }
+              - { name: title, label: Title, widget: string, required: true }
           - label: 'Meta'
             required: false
             name: 'meta'
             widget: 'object'
             fields:
-              - { label: Title, name: title, widget: string, required: false }
+              - { label: Title, name: title, widget: string, pattern: ['^.{5,60}$', "Must have 5 - 60 characters"], required: true }
               - {
                   label: Description,
                   name: description,
                   widget: text,
-                  required: false,
+                  required: true,
+                  pattern: ['^.{5,160}$', "Must have 5 - 160 characters"],
                 }
               - {
                   label: Canonical Link,
@@ -232,12 +235,13 @@ collections: # A list of collections the CMS should be able to edit
             name: 'meta'
             widget: 'object'
             fields:
-              - { label: Title, name: title, widget: string, required: false }
+              - { label: Title, name: title, widget: string, pattern: ['^.{5,60}$', "Must have 5 - 60 characters"], required: true }
               - {
                   label: Description,
                   name: description,
                   widget: text,
-                  required: false,
+                  required: true,
+                  pattern: ['^.{5,160}$', "Must have 5 - 160 characters"],
                 }
               - {
                   label: Canonical Link,
@@ -275,12 +279,13 @@ collections: # A list of collections the CMS should be able to edit
         name: 'meta'
         widget: 'object'
         fields:
-          - { label: Title, name: title, widget: string, required: false }
+          - { label: Title, name: title, widget: string, pattern: ['^.{5,60}$', "Must have 5 - 60 characters"], required: true }
           - {
               label: Description,
               name: description,
               widget: text,
-              required: false,
+              required: true,
+              pattern: ['^.{5,160}$', "Must have 5 - 160 characters"],
             }
           - {
               label: Canonical Link,
@@ -339,12 +344,13 @@ collections: # A list of collections the CMS should be able to edit
         name: 'meta'
         widget: 'object'
         fields:
-          - { label: Title, name: title, widget: string, required: false }
+          - { label: Title, name: title, widget: string, pattern: ['^.{5,60}$', "Must have 5 - 60 characters"], required: true }
           - {
               label: Description,
               name: description,
               widget: text,
-              required: false,
+              required: true,
+              pattern: ['^.{5,160}$', "Must have 5 - 160 characters"],
             }
           - {
               label: Canonical Link,
@@ -376,12 +382,12 @@ collections: # A list of collections the CMS should be able to edit
         name: 'meta'
         widget: 'object'
         fields:
-          - { label: Title, name: title, widget: string, required: false }
+          - { label: Title, name: title, widget: string, pattern: ['^.{5,60}$', "Must have 5 - 60 characters"], required: true }
           - {
               label: Description,
               name: description,
-              widget: text,
-              required: false,
+              required: true,
+              pattern: ['^.{5,160}$', "Must have 5 - 160 characters"],
             }
           - {
               label: Canonical Link,
@@ -398,16 +404,15 @@ collections: # A list of collections the CMS should be able to edit
       preview: false
     files:
       - file: 'content/settings/global.yml'
-        label: 'Global Settings'
+        label: 'Website Settings'
         name: 'global-settings'
         fields:
           - { label: Site Title, name: siteTitle, widget: string }
           - { label: Site Url, name: siteUrl, widget: string, required: false }
           - {
-              label: Site Description,
+              label: Site Description - Required,
               name: siteDescription,
               widget: text,
-              required: false,
             }
           - label: Social Media Card
             name: socialMediaCard

@@ -86,9 +86,7 @@ export class Navigation extends Component {
             <NavLink to="/news/">News</NavLink>
             <NavLink to="/aboutus/">About Us</NavLink>
             <NavLink to="/contact/">Contact</NavLink>
-            <a href="https://winnpro-blog.netlify.app/">
-              Blog ↗︎
-            </a>
+            <NavLink to="https://winnpro-blog.netlify.app/">Blog ↗︎</NavLink>
           </div>
           <button
             className="Button-blank Nav--MenuButton"

@@ -19,10 +19,4 @@ if (typeof window !== 'undefined') {
       'color: hotpink; font-size: 15px'
     )
   }
-
-  //if (window.localStorage && window.netlifyIdentity) {
-  //netlifyIdentity.on('login', function() {
-  //document.location.reload()
-  //})
-  //}
 }

@@ -129,10 +129,10 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
+        template
         budget
         completed
         architect
-        template
         subtitle
         featuredImage
       }

@@ -20,7 +20,6 @@ export const NewsPageTemplate = ({ title, subtitle, featuredImage, body }) => (
     </section>
   </main>
 )
-
 const NewsPage = ({ data: { page } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
@@ -38,6 +37,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        template
         subtitle
         featuredImage
       }

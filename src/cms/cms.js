@@ -32,7 +32,7 @@ CMS.registerPreviewTemplate('services-page', ({ entry }) => (
 CMS.registerPreviewTemplate('contact-page', ({ entry }) => (
   <ContactPageTemplate {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('newsPages', ({ entry }) => (
+CMS.registerPreviewTemplate('news-page', ({ entry }) => (
   <NewsPageTemplate {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('project-page', ({ entry }) => (
