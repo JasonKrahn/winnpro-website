@@ -7,7 +7,6 @@ meta:
   description: WinnPro Construction News
   title: WinnPro Construction News
 ---
-
 ## Exciting News
 
 ### May 1st, 2015
@@ -20,7 +19,8 @@ Something new has begun at WinnPro Construction. We are very proud to announce t
 
 </br>
 
----
+- - -
+
 </br>
 
 ## Less Exciting News
