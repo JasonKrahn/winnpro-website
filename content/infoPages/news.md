@@ -1,6 +1,6 @@
 ---
 template: NewsPage
-slug: news
+slug: /news
 title: News
 featuredImage: https://ucarecdn.com/6ae17cff-9dfd-4d7a-abb7-b5a31e2a1b2f/-/crop/1500x684/0,441/-/preview/
 meta:
