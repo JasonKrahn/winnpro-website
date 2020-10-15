@@ -13,7 +13,7 @@ meta:
 
 > Written by: **WinnPro Intern #38**
 
-![](https://res.cloudinary.com/winnpro/image/upload/v1595616870/DJI_0005_md5mn9.jpg "Mid Construction")
+![WinnPro Construction New Office, Mid Construction](https://res.cloudinary.com/winnpro/image/upload/v1595616870/DJI_0005_md5mn9.jpg "Mid Construction")
 
 Something new has begun at WinnPro Construction. We are very proud to announce the construction of our New Head Office. We have been growing as a company over the last few years. Having a fresh, contemporary
 
