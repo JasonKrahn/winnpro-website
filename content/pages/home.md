@@ -36,7 +36,7 @@ section2: >-
   ![procore core](/images/core-and-procore.jpg)
 video: https://res.cloudinary.com/winnpro/video/upload/c_scale,f_auto,fl_progressive,g_center,w_1000,x_12,y_0/v1602042304/hq-cover_ji3oik.mp4
 videoPoster: https://res.cloudinary.com/winnpro/image/upload/v1602043005/DJI_0005_md5mn9.jpg
-videoTitle: Serving Winnipeg for 15 years
+videoTitle: Serving Winnipeg for over 20 years
 accordion:
   - description: Project management is known to be a combination of art and science;
       involving planning, organizing, controlling and leading. With a wide range
