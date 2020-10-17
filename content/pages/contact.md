@@ -18,4 +18,4 @@ meta:
 ---
 ## Contact us
 
-Fill out the form or contact us directly, and we will get back to you at the earliest possibility.
+Fill out the form or contact us directly and we will get back to you at the earliest possibility.
