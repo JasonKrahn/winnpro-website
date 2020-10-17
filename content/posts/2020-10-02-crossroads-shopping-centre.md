@@ -10,16 +10,29 @@ architect: Raymond S.C Wan, Architect Inc.
 categories:
   - category: Office Buildings
   - category: Shopping Centres
+  - category: Retail
 gallery:
-  - image: https://ucarecdn.com/95eff856-49c8-4a2d-abaf-5ef7ab37f018/
-    alt: Aerial View
-    title: Aerial View
+  - image: https://ucarecdn.com/f24a4433-5662-46da-9f45-97184a369a94/
+    alt: Foundation
+    title: Foundation
+  - image: https://ucarecdn.com/de50e4dc-5d31-4aae-ad7c-716331bfe399/
+    alt: Inside
+    title: Inside
+  - image: https://ucarecdn.com/9c8acab8-4ac8-454d-9ed5-ae635c77a090/
+    alt: Completed Exterior
+    title: Completed Exterior
 meta:
   title: Crossroads Shopping Centre
   description: Crossroads Shopping Centre construction project by WinnPro Construction
 ---
-Located at 1579 Regent Ave.
+#### Project Overview
 
 Iudico eripuit ius ei, dolorem recusabo duo ei. Ex per tation legimus veritus, delicata vulputate sed id, in duo quot mnesarchum.
 
-Ea vix veri aliquid pericula, graeci adversarium delicatissimi ad vis. Et eum causae molestiae, prima perfecto partiendo qui ut. Saepe ubique putent et sed. In vim nibh congue definitiones, ut mea eligendi vivendum. Invidunt sensibus senserit eu usu, probo noster nostrud sit id.
+Ea vix veri aliquid pericula, graeci adversarium delicatissimi ad vis. Et eum causae molestiae, prima perfecto partiendo qui ut.
+
+#### Results
+
+ Saepe ubique putent et sed. In vim nibh congue definitiones, ut mea eligendi vivendum. Invidunt sensibus senserit eu usu, probo noster nostrud sit id.
+
+[Located at 1579 Regent Ave.](https://www.google.com/maps/place/1579+Regent+Ave+W,+Winnipeg,+MB+R2C+3B3/data=!4m2!3m1!1s0x52ea70ba2b1e0d71:0xf430c80447ca908f?sa=X&ved=2ahUKEwiktOPQx7zsAhWGvZ4KHTNpDxYQ8gEwAHoECAsQAQ)
