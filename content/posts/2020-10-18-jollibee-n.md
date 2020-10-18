@@ -1,31 +1,36 @@
 ---
 template: SinglePost
-title: Jollibee N
+title: Jollibee Northgate
 status: Published
 date: 2020-10-17
-featuredImage: https://ucarecdn.com/fa563d5b-2a5d-4854-978b-dcd1867c8ff4/-/crop/2309x1453/0,279/-/preview/
-budget: $1,200,000
-completed: 2020-10
+featuredImage: https://ucarecdn.com/58702285-b4d4-4834-a72c-b1a3a965b588/
+budget: $1,000,000
+completed: 2017-08
 architect: Raymond S.C Wan, Architect Inc.
 categories:
   - category: Restaurants
 gallery:
-  - alt: Exterior Construction of Jollibee Northgate
-    image: https://ucarecdn.com/40c63f6b-71dd-4c6f-9ce9-089e549e1278/-/preview/-/enhance/37/
-    title: Exterior Construction
-  - alt: Jollibee Kitchen appliance installation
-    image: https://ucarecdn.com/9f43d428-e938-402b-ac50-2938aec0e4ac/
-    title: Appliance Installation
+  - alt: Jollibee Northgate Grand Opening
+    image: https://ucarecdn.com/669e95d3-c37e-4401-aa7b-83c263a57c26/
+    title: Grand Opening
+  - alt: Jollibee Drive Thru Under Construction
+    image: https://ucarecdn.com/23389f8b-6b8e-4fcd-8f50-2a8afd1d607e/
+    title: Drive Thru
   - alt: Jollibee Completed Interior
-    image: https://ucarecdn.com/87258cc3-beb6-4d74-87b8-78d82bad64f6/
+    image: https://ucarecdn.com/22ae40b4-3335-4c67-ae4c-0a26e5c848cf/
     title: Completed Interior
 meta:
-  description: Canada’s first Jollibee has finally landed here in Winnipeg and
-    WinnPro was awarded the opportunity to be the General Contractor.
-  title: Jollibee Stadium Centre Construction
+  description: WinnPro was honoured to construct Winnipeg’s second Jollibee.
+  title: Jollibee Northgate Construction
 ---
 #### Project Overview
 
-Canada’s first Jollibee has finally landed here in Winnipeg and WinnPro was awarded the opportunity to be the General Contractor. We’ve had the pleasure of working directly with the Jollibee Team as well as Raymond S.C. Wan Architect to complete the project just in time for the busy Christmas season.
+This makes the **2nd** Jollibee in Winnipeg, and the **2nd** Jollibee in Canada!
 
-Starting out as a small family owned ice-cream shop in the mid 70’s, Jollibee has grown to be the largest fast-food restaurant in the Philippines. Known as the McDonalds of Asia; its fast growth is evident with having over 3,000 stores worldwide. With a menu that consists of their famous Chickenjoy, Jollibee Spaghetti, Yum and Champ Burger with many more items, you’re bound to find something to enjoy. Excited as we have been throughout the last couple months bringing this project come to life, we can’t imagine the excitement Jollibee will be for Winnipeg’s Filipino community.
+As the General Contractor for the **Interior Fit-Up** we were honoured to have this opportunity yet again!
+
+Working in partnership with Raymond S.C. Wan Architect and alongside with the Jollibee Team, together we were able to see this project come to life from beginning to end.
+
+#### Results
+
+We’re very delighted to have completed Jollibee-Northgate just before the *hustling* Holiday Season.
