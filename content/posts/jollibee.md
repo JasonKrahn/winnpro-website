@@ -1,6 +1,6 @@
 ---
 template: SinglePost
-title: Jollibee Northgate
+title: Jollibee Stadium Centre
 status: Published
 date: 2018-01-16
 featuredImage: https://ucarecdn.com/fa563d5b-2a5d-4854-978b-dcd1867c8ff4/-/crop/2309x1453/0,279/-/preview/
@@ -22,7 +22,7 @@ gallery:
 meta:
   description: Canada’s first Jollibee has finally landed here in Winnipeg and
     WinnPro was awarded the opportunity to be the General Contractor.
-  title: Jollibee Northgate Construction
+  title: Jollibee Stadium Centre Construction
 ---
 #### Project Overview
 
