@@ -1,6 +1,6 @@
 ---
 template: SinglePost
-title: Crossroads Shopping Centre
+title: Crossroads Village Shopping Centre
 status: Published
 date: 2020-10-02
 featuredImage: https://ucarecdn.com/2e7a00e6-a97c-48f4-b5d4-d3d09fab9244/
