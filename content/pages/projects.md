@@ -2,12 +2,12 @@
 template: ProjectIndex
 slug: projects
 title: Completed Projects
-featuredImage: https://ucarecdn.com/116b1881-de0f-4453-94c7-c748a260a741/-/crop/1492x845/0,47/-/preview/
+featuredImage: https://ucarecdn.com/9f2f0c76-9eed-46c6-b070-166a8da52c23/-/crop/2298x1218/11,287/-/preview/-/enhance/21/
 subtitle: Construction and renovation projects for restaurants, offices, retail
   stores and large-scale builds
 meta:
-  description: "Browse WinnPro's portfolio of successful commercial construction
-    and renovation projects for restaurants, offices, retail stores and
-    large-scale builds in Manitoba and Western Canada. "
-  title: WinnPro's Projects | Manitoba's Commercial Construction Experts
+  description: WinnPro's portfolio of commercial construction and renovation
+    projects for restaurants, offices, retail stores and large-scale builds in
+    Western Canada
+  title: WinnPro's Completed Projects
 ---
