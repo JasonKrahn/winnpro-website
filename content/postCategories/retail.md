@@ -2,8 +2,9 @@
 template: ProjectIndex
 title: Retail
 subtitle: Retail space construction
+featuredImage: https://ucarecdn.com/12bddef2-da18-4529-aeef-8f63792b187a/
 meta:
   noindex: true
   title: Retail
-featuredImage: 'https://ucarecdn.com/48e39e19-b0cb-432c-83fd-a573bbd1fbb2/'
+  description: Retail projects from WinnPro
 ---
