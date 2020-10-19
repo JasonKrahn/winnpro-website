@@ -7,17 +7,24 @@ subtitle: Winnipeg's foremost commercial contractors
 section1: >-
   ## Who We Are
 
+
   WinnPro Construction Ltd. is a first generation general contractor based in Winnipeg, Manitoba. We have local management, labor expertise and we have a pool of qualified subcontractors who are able to meet our specific construction requirements.
 
 
   WinnPro’s expertise lies in general contracting; project management, and design build. We have completed projects in multiple sectors of the commercial world including:
 
-    - Food industries
-    - Industrial projects
-    - Commercial offices
-    - Retail
+
+  * Food industries
+
+  * Industrial projects
+
+  * Commercial offices
+
+  * Retail
+
 
   ## What We Do
+
 
   We strive to achieve long-term relationships with our partners and customers. We recognize the value of experience, hard work, and standing by your word; listening to your needs to understand your specifications and create the space you want.
 video: https://res.cloudinary.com/winnpro/video/upload/c_scale,f_auto,fl_progressive,g_center,w_1000,x_12,y_0/v1602042304/hq-cover_ji3oik.mp4
@@ -98,15 +105,15 @@ accordion:
       lighting, testing of fire extinguishers (and all other items installed for
       safety) and any other repairs or maintenance that you may require.
 gallery:
-  - alt: Project 1
-    image: https://ucarecdn.com/0719d096-c562-4bd9-96a1-9ea6362416a5/
-    title: 233 Fake Place
-  - alt: Image
-    image: https://ucarecdn.com/c5e798e8-f3b7-4df5-b89d-974402eb980c/
-    title: 893 Not Real Co.
-  - alt: Image 2
+  - alt: Installing In Floor Heat - Instagram
+    image: https://ucarecdn.com/cfb5ca36-5114-477d-884b-0645baa1112b/
+    title: Installing In Floor Heat
+  - alt: Trenching
+    image: https://ucarecdn.com/cc8bebe7-7322-4c1e-b12e-fd7fb8ca6987/
+    title: Trenching
+  - alt: Finished interior of Jollibee
     image: https://ucarecdn.com/87258cc3-beb6-4d74-87b8-78d82bad64f6/
-    title: 542 Regent
+    title: Finished Jollibee Front Counter
 section2: >-
   #### COR™ Certification
 
@@ -114,7 +121,7 @@ section2: >-
   We are [COR™ Certified](https://www.constructionsafety.ca/cor-certified-companies/).
 
 
-  #### Procore Project Management 
+  #### Procore Project Management
 
 
   We use the latest [Procore Project Management](https://www.procore.com/) systems for all projects – big and small – in our ongoing effort to streamline operations and maintain efficiencies across the board. 
@@ -123,10 +130,15 @@ section2: >-
   ![procore core](/images/core-and-procore.jpg "Procore and Core Certified")
 
 
-  #### Office Location
+  #### Office Location and Hours
 
 
-  ##### [48, Unit A Speers Rd, Winnipeg, MB R2J 1M3](https://www.google.com.au/maps/search/48,%20Unit%20A%20Speers%20Rd,%20Winnipeg,%20MB%20R2J%201M3)
+  [48, Unit A Speers Rd, Winnipeg, MB R2J 1M3](https://www.google.com.au/maps/search/48,%20Unit%20A%20Speers%20Rd,%20Winnipeg,%20MB%20R2J%201M3)
+
+
+  Monday to Friday
+
+  7am – 4pm
 meta:
   description: WinnPro Construction Ltd. is a customer focused commercial builder
     with over 15 years in the industry. Based in Winnipeg Manitoba.
