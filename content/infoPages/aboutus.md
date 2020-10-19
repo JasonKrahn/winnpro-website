@@ -5,10 +5,10 @@ title: About Us
 featuredImage: https://cdn.pixabay.com/photo/2014/12/15/14/02/construction-worker-569126_960_720.jpg
 meta:
   description: "WinnPro Construction is Winnipeg's premier commercial construction
-    contractors."
-  title: About WinnPro Construction
+    contractors for over 20 years. "
+  title: About Us – WinnPro Construction
 ---
-## Serving Winnipeg for 15 years
+## Serving Winnipeg for over 20 years
 
 With 40 years of commercial construction experience under his belt, Albert Krahn incorporated WinnPro Construction in 2000 and hasn’t looked back since.
 
