@@ -20,20 +20,6 @@ section1: >-
   ## What We Do
 
   We strive to achieve long-term relationships with our partners and customers. We recognize the value of experience, hard work, and standing by your word; listening to your needs to understand your specifications and create the space you want.
-
-
-gallery:
-  - alt: Project 1
-    image: https://ucarecdn.com/0719d096-c562-4bd9-96a1-9ea6362416a5/
-    title: 233 Fake Place
-  - alt: Image
-    image: https://ucarecdn.com/c5e798e8-f3b7-4df5-b89d-974402eb980c/
-    title: 893 Not Real Co.
-  - alt: Image 2
-    image: https://ucarecdn.com/87258cc3-beb6-4d74-87b8-78d82bad64f6/
-    title: 542 Regent
-section2: >-
-  ![procore core](/images/core-and-procore.jpg)
 video: https://res.cloudinary.com/winnpro/video/upload/c_scale,f_auto,fl_progressive,g_center,w_1000,x_12,y_0/v1602042304/hq-cover_ji3oik.mp4
 videoPoster: https://res.cloudinary.com/winnpro/image/upload/v1602043005/DJI_0005_md5mn9.jpg
 videoTitle: Serving Winnipeg for over 20 years
@@ -111,7 +97,38 @@ accordion:
       interior signs or banners, roofs, sales displays and shelving, emergency
       lighting, testing of fire extinguishers (and all other items installed for
       safety) and any other repairs or maintenance that you may require.
+gallery:
+  - alt: Project 1
+    image: https://ucarecdn.com/0719d096-c562-4bd9-96a1-9ea6362416a5/
+    title: 233 Fake Place
+  - alt: Image
+    image: https://ucarecdn.com/c5e798e8-f3b7-4df5-b89d-974402eb980c/
+    title: 893 Not Real Co.
+  - alt: Image 2
+    image: https://ucarecdn.com/87258cc3-beb6-4d74-87b8-78d82bad64f6/
+    title: 542 Regent
+section2: >-
+  #### COR™ Certification
+
+
+  We are [COR™ Certified](https://www.constructionsafety.ca/cor-certified-companies/).
+
+
+  #### Procore Project Management 
+
+
+  We use the latest [Procore Project Management](https://www.procore.com/) systems for all projects – big and small – in our ongoing effort to streamline operations and maintain efficiencies across the board. 
+
+
+  ![procore core](/images/core-and-procore.jpg "Procore and Core Certified")
+
+
+  #### Office Location
+
+
+  ##### [48, Unit A Speers Rd, Winnipeg, MB R2J 1M3](https://www.google.com.au/maps/search/48,%20Unit%20A%20Speers%20Rd,%20Winnipeg,%20MB%20R2J%201M3)
 meta:
-  description: WinnPro Construction Ltd. is a customer focused commercial builder with over 15 years in the industry. Based in Winnipeg Manitoba.
+  description: WinnPro Construction Ltd. is a customer focused commercial builder
+    with over 15 years in the industry. Based in Winnipeg Manitoba.
   title: WinnPro Construction Home
 ---
