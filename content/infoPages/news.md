@@ -7,7 +7,7 @@ meta:
   description: WinnPro Construction News
   title: WinnPro Construction News
 ---
-## Exciting News
+## Exciting News - WinnPro Head Office Build
 
 ### October 23rd, 2015
 

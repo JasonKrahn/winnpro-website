@@ -105,40 +105,32 @@ accordion:
       lighting, testing of fire extinguishers (and all other items installed for
       safety) and any other repairs or maintenance that you may require.
 gallery:
-  - alt: Installing In Floor Heat - Instagram
-    image: https://ucarecdn.com/cfb5ca36-5114-477d-884b-0645baa1112b/
-    title: Installing In Floor Heat
-  - alt: Trenching
-    image: https://ucarecdn.com/cc8bebe7-7322-4c1e-b12e-fd7fb8ca6987/
-    title: Trenching
-  - alt: Finished interior of Jollibee
+  - alt: Red River Mutual Regional Office exterior construction
+    image: https://ucarecdn.com/a1566fd4-4cc2-40de-8c37-8142126a7335/
+    title: Exterior Construction of Red River Mutual Regional Office
+  - alt: Crossroads Shopping Building Shell
+    image: https://ucarecdn.com/de50e4dc-5d31-4aae-ad7c-716331bfe399/
+    title: Shopping Centre Shell
+  - alt: Restaurant construction finished Jollibee interior
     image: https://ucarecdn.com/87258cc3-beb6-4d74-87b8-78d82bad64f6/
-    title: Finished Jollibee Front Counter
+    title: Completed Jollibee Restaurant Order Desk
 section2: >-
-  #### COR™ Certification
-
-
-  We are [COR™ Certified](https://www.constructionsafety.ca/cor-certified-companies/).
-
-
-  #### Procore Project Management
-
-
-  We use the latest [Procore Project Management](https://www.procore.com/) systems for all projects – big and small – in our ongoing effort to streamline operations and maintain efficiencies across the board. 
+  
 
 
   ![procore core](/images/core-and-procore.jpg "Procore and Core Certified")
 
 
-  #### Office Location and Hours
+  ### COR™ Certification
 
 
-  [48, Unit A Speers Rd, Winnipeg, MB R2J 1M3](https://www.google.com.au/maps/search/48,%20Unit%20A%20Speers%20Rd,%20Winnipeg,%20MB%20R2J%201M3)
+  We are [COR™ Certified](https://www.constructionsafety.ca/cor-certified-companies/).
 
 
-  Monday to Friday
+  ### Procore Project Management
 
-  7am – 4pm
+
+  We use the latest [Procore Project Management](https://www.procore.com/) systems for all projects – big and small – in our ongoing effort to streamline operations and maintain efficiencies across the board. 
 meta:
   description: WinnPro Construction Ltd. is a customer focused commercial builder
     with over 15 years in the industry. Based in Winnipeg Manitoba.
