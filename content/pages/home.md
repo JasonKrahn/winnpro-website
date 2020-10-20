@@ -27,7 +27,7 @@ section1: >-
 
 
   We strive to achieve long-term relationships with our partners and customers. We recognize the value of experience, hard work, and standing by your word; listening to your needs to understand your specifications and create the space you want.
-video: https://res.cloudinary.com/winnpro/video/upload/c_scale,f_auto,fl_progressive,g_center,w_1000,x_12,y_0/v1602042304/hq-cover_ji3oik.mp4
+Video Link: https://res.cloudinary.com/winnpro/video/upload/f_auto,fl_progressive/v1603159467/Final-1_oh136z.mp4
 videoPoster: https://res.cloudinary.com/winnpro/image/upload/v1602043005/DJI_0005_md5mn9.jpg
 videoTitle: Serving Winnipeg for over 20 years
 accordion:
@@ -135,4 +135,5 @@ meta:
   description: WinnPro Construction Ltd. is a customer focused commercial builder
     with over 15 years in the industry. Based in Winnipeg Manitoba.
   title: WinnPro Construction Home
+video: https://res.cloudinary.com/winnpro/video/upload/c_scale,f_auto,fl_progressive,g_center,w_1000,x_12,y_0/v1602042304/hq-cover_ji3oik.mp4
 ---
