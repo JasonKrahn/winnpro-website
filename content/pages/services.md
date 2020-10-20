@@ -24,7 +24,7 @@ section1: >-
 
 
   We work primarily in the Winnipeg and Brandon area, but we travel frequently to Northern Manitoba to work with clients in The Pas and Churchill. We also build in Edmonton and Calgary, Alberta.
-Video Link: https://res.cloudinary.com/winnpro/video/upload/c_scale,f_auto,fl_progressive,g_center,w_1000,x_12,y_0/v1602042304/hq-cover_ji3oik.mp4
+Video Link: https://res.cloudinary.com/winnpro/video/upload/f_auto,fl_progressive/v1603159467/Final-1_oh136z.mp4
 videoPoster: https://res.cloudinary.com/winnpro/image/upload/v1602043005/DJI_0005_md5mn9.jpg
 videoTitle: Serving Winnipeg for over 20 years
 meta:
