@@ -15,7 +15,7 @@ export const ServicesPageTemplate = ({
   video,
   videoPoster,
   videoTitle,
-  body
+  body,
 }) => (
   <main>
     <PageHeader
@@ -34,7 +34,6 @@ export const ServicesPageTemplate = ({
         {video && <source src={video} type="video/mp4" />}
       </BackgroundVideo>
     </section>
-
   </main>
 )
 

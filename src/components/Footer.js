@@ -10,15 +10,18 @@ export default () => (
     <br />
 
     <footer className="footer">
-    <div className="container taCenter">
-          <span>Office open from 7am to 4pm, Monday to Friday | <a href="/contact/">Contact us</a>.
-          </span>
+      <div className="container taCenter">
+        <span>
+          Office open from 7am to 4pm, Monday to Friday |{' '}
+          <a href="/contact/">Contact us</a>.
+        </span>
       </div>
       <div className="container taCenter">
         <span>
-          © Copyright WinnPro Construction, {new Date().getFullYear()} All rights reserved.
+          © Copyright WinnPro Construction, {new Date().getFullYear()} All
+          rights reserved.
         </span>
-        </div>
+      </div>
     </footer>
   </div>
 )
