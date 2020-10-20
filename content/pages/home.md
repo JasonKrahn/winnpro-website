@@ -115,10 +115,8 @@ gallery:
     image: https://ucarecdn.com/87258cc3-beb6-4d74-87b8-78d82bad64f6/
     title: Completed Jollibee Restaurant Order Desk
 section2: >-
-  
-
-
-  ![procore core](/images/core-and-procore.jpg "Procore and Core Certified")
+  ![Procore core and Core Certified](/images/core-and-procore.jpg "Procore and
+  Core Certified")
 
 
   ### COR™ Certification
@@ -130,7 +128,7 @@ section2: >-
   ### Procore Project Management
 
 
-  We use the latest [Procore Project Management](https://www.procore.com/) systems for all projects – big and small – in our ongoing effort to streamline operations and maintain efficiencies across the board. 
+  We use the latest [Procore Project Management](https://www.procore.com/) systems for all projects – big and small – in our ongoing effort to streamline operations and maintain efficiencies across the board.
 meta:
   description: WinnPro Construction Ltd. is a customer focused commercial builder
     with over 15 years in the industry. Based in Winnipeg Manitoba.
