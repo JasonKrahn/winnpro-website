@@ -12,7 +12,7 @@ export default () => (
     <footer className="footer">
       <div className="container taCenter">
         <span>
-          Office open from 7am to 4pm, Monday to Friday |{' '}
+          Open 7am to 4pm, Monday to Friday {' '}
           <a href="/contact/">Contact us</a>.
         </span>
       </div>

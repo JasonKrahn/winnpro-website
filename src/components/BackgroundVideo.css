@@ -1,7 +1,7 @@
 .BackgroundVideo-section {
   position: relative;
   overflow: hidden;
-  height: 50rem;
+  height: 40rem;
 }
 .BackgroundVideo {
   display: block;
@@ -31,13 +31,13 @@
   position: absolute;
   top: 50%;
   left: 0;
-  transform: translate(0, -25%);
-  font-size: 4rem;
+  transform: translate(0, -50%);
+  font-size: 5rem;
   font-weight: bold;
   width: 100%;
   text-align: center;
-  color: white;
-  text-shadow: 1px 1px 1px grey;
+  color: var(--primary);
+  text-shadow: .5px .5px .5px rgb(46, 46, 46);
 }
 
 .Poster--videoTitle {
@@ -45,7 +45,7 @@
   top: 50%;
   left: 0;
   transform: translate(0, -20%);
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: bold;
   width: 100%;
   text-align: center;

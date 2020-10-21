@@ -6,9 +6,9 @@ node_modules
 static/admin/*.bundle.*
 .DS_Store
 yarn-error.log
+public/
 .env.development
 .env
-
 .gitignore
 .env
 .env

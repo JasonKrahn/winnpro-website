@@ -128,7 +128,6 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [`Exo 2`],
-        display: 'swap',
       },
     },
     {
@@ -160,8 +159,8 @@ module.exports = {
       resolve: `gatsby-plugin-purgecss`,
       options: {
         printRejected: true, // Print removed selectors and processed file names
-        develop: false,
-        ignore: ['photoswipe/', '/globalStyles.css', '/admin.css'],
+        develop: true,
+        ignore: ['photoswipe/', '/globalStyles.css', '/admin.css', '/BackgroundVideo.css'],
         // develop: true, // Enable while using `gatsby develop`
         // tailwind: true, // Enable tailwindcss support
         // whitelist: ['whitelist'], // Don't remove this selector

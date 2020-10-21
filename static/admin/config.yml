@@ -154,7 +154,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Featured Images, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown }
           - { label: Section 1, name: section1, widget: markdown }
-          - { name: Video Link, label: video, widget: string }
+          - { name: video, label: video, widget: file }
           - { name: videoPoster, label: videoPoster, widget: image }
           - { label: videoTitle, name: videoTitle, widget: string }
           - label: 'Meta'
@@ -193,12 +193,12 @@ collections: # A list of collections the CMS should be able to edit
               widget: hidden,
               default: HomePage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: 'components' }
-          - { label: Title, name: title, widget: string }
-          - { label: Featured Images, name: featuredImage, widget: image }
-          - { label: Subtitle, name: subtitle, widget: markdown }
-          - { label: Section 1, name: section1, widget: markdown }
-          - { name: Video Link, label: video, widget: string }
+          - { label: slug, name: slug, widget: hidden, default: 'components' }
+          - { label: title, name: title, widget: string }
+          - { label: featured Images, name: featuredImage, widget: image }
+          - { label: subtitle, name: subtitle, widget: markdown }
+          - { label: section 1, name: section1, widget: markdown }
+          - { name: video, label: video, widget: file }
           - { name: videoPoster, label: videoPoster, widget: image }
           - { label: videoTitle, name: videoTitle, widget: string }
           - label: 'Accordion'
