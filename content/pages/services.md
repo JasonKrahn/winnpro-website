@@ -31,4 +31,20 @@ meta:
   description: WinnPro Constructions is a full service commercial contractor
   title: WinnPro Services
   noindex: true
+section2: >-
+  ![Procore core and Core Certified](/images/core-and-procore.jpg "Procore and
+  Core Certified")
+
+
+  ### COR™ Certification
+
+
+  We are [COR™ Certified](https://www.constructionsafety.ca/cor-certified-companies/).
+
+
+  ### Procore Project Management
+
+
+  We use the latest [Procore Project Management](https://www.procore.com/) systems for all projects – big and small – in our ongoing effort to streamline operations and maintain efficiencies across the board.
+  
 ---

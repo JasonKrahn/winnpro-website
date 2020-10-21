@@ -12,6 +12,7 @@ export const ServicesPageTemplate = ({
   subtitle,
   featuredImage,
   section1,
+  section2,
   video,
   videoPoster,
   videoTitle,
@@ -33,6 +34,12 @@ export const ServicesPageTemplate = ({
       <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
         {video && <source src={video} type="video/mp4" />}
       </BackgroundVideo>
+    </section>
+
+    <section className="section">
+      <div className="container">
+        <Content source={section2} />
+      </div>
     </section>
   </main>
 )
