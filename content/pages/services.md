@@ -24,7 +24,8 @@ section1: >-
 
 
   We work primarily in the Winnipeg and Brandon area, but we travel frequently to Northern Manitoba to work with clients in The Pas and Churchill. We also build in Edmonton and Calgary, Alberta.
-section2: >-
+
+
   ## Project Management
 
 
@@ -47,6 +48,7 @@ section2: >-
 
 
   A well-maintained workplace can create the right impression, improve employee efficiency, and reduce your operational costs while keeping the customer experience a priority.Our experienced building maintenance team can do any repairs or upgrades that your building requires to keep it safe, welcoming to your customers and functional for your team. This includes repairing or replacing flooring, walls, ceilings, counter tops, cabinets, washroom or kitchen or change room fixtures, glass and mirrors, interior signs or banners, roofs, sales displays and shelving, emergency lighting, testing of fire extinguishers (and all other items installed for safety) and any other repairs or maintenance that you may require.
+section2: "##"
 video: https://res.cloudinary.com/winnpro/video/upload/c_scale,f_auto,w_1000/v1603238746/web-auto-auto-least-services-final_n9vtog.mov
 videoPoster: https://res.cloudinary.com/winnpro/image/upload/v1602043005/DJI_0005_md5mn9.jpg
 videoTitle: "  "
