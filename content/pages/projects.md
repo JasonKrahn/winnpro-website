@@ -2,7 +2,7 @@
 template: ProjectIndex
 slug: projects
 title: Completed Projects
-featuredImage: https://ucarecdn.com/9f2f0c76-9eed-46c6-b070-166a8da52c23/-/crop/2298x1218/11,287/-/preview/-/enhance/21/
+featuredImage: https://ucarecdn.com/32af2e93-1698-4632-8be7-7be22f4c0116/-/crop/3517x1499/297,0/-/preview/-/enhance/8/
 subtitle: Construction and renovation projects for restaurants, offices, retail
   stores and large-scale builds
 meta:
