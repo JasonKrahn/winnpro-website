@@ -128,6 +128,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [`Exo 2`],
+        display: 'swap',
       },
     },
     {
