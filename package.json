@@ -59,7 +59,7 @@
     "rebuild": "npm run clean && npm install && npm run build",
     "build": "gatsby build --verbose",
     "firebase-deploy": "firebase deploy --only hosting:winnpro",
-    "develop": "gatsby develop",
+    "develop": "gatsby develop -H 192.168.0.14 -p 8000",
     "clean": "del-cli .cache public",
     "serve": "gatsby serve",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
