@@ -1,7 +1,7 @@
 ---
 template: ContactPage
 slug: contact
-title: Contact WinnPro Now
+title: Contact WinnPro
 featuredImage: https://ucarecdn.com/cdf1a5e5-25f9-472f-a363-889807ffba97/
 subtitle: Get in touch with a Pro
 address: 48, Unit A Speers Rd, Winnipeg, MB R2J 1M3
