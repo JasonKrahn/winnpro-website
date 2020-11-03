@@ -44,7 +44,7 @@
 }
 
 .NavLink:hover,
-.NavLink.active,
+
 .NavLink:focus {
   color: var(--primary);
   border-bottom-color: currentColor;
@@ -100,6 +100,45 @@
   display: block;
   position: relative;
   width: 100%;
+}
+
+/* Buttons */
+
+.Nav--Button {
+  background: var(--primary);
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  font-size: 1.3rem;
+  display: inline-block;
+  padding: 1.25rem 3rem;
+  border: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border-radius: var(--borderRadius);
+}
+.Nav--Button:hover,
+.Button:focus {
+  opacity: .5;
+  outline: none;
+  color: rgb(255, 255, 255);
+}
+.Nav--Button[disabled] {
+  opacity: 0.4;
+  pointer-events: none;
+  cursor: progress;
+}
+.Nav--Button-blank {
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 750px) {
