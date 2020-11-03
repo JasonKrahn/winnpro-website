@@ -23,6 +23,9 @@ section1: >-
   * Retail
 
 
+  ### [See a selection of our completed projects](/projects)
+
+
   ## What We Do
 
 

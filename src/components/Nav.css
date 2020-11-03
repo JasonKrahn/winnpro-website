@@ -105,15 +105,15 @@
 /* Buttons */
 
 .Nav--Button {
-  background: var(--primary);
+  background:  #383838;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.05em;
   font-size: 1.3rem;
   display: inline-block;
-  padding: 1.25rem 3rem;
+  padding: 1rem 1.5rem;
   border: none;
   transition: all 0.2s ease;
   cursor: pointer;

@@ -32,10 +32,6 @@ export const HomePageTemplate = ({
     <section className="section">
       <div className="container">
         <Content source={section1} />
-        <br></br>
-        <Link className="Button" to="/contact/">
-          Contact Us
-        </Link>
       </div>
     </section>
     <section className="BackgroundVideo-section section">
