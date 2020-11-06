@@ -4,9 +4,9 @@ title: Seafood City
 status: Published
 date: 2020-10-15
 featuredImage: https://ucarecdn.com/f002532d-390c-4455-9e26-0fa92cf7bd52/-/crop/3099x1883/737,5/-/preview/
-budget: $2,845,000
-completed: 2020-04
-architect: ((SOMEONE))
+budget: $8,000,000
+completed: 2019-04
+architect: Camburas & Theodore Inc.
 categories:
   - category: Restaurants
   - category: Shopping Centres

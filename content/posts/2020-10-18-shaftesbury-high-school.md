@@ -2,7 +2,7 @@
 template: SinglePost
 title: Shaftesbury High School
 status: Published
-date: 2020-10-17
+date: 2011-10-17
 featuredImage: https://ucarecdn.com/af8c6924-dfc6-4ee1-94a4-acf9229922ec/
 budget: $2,500,000
 completed: 2020-10

@@ -14,9 +14,8 @@ module.exports = {
       options: {
         /*id: 'GTM-add_your_tag_here',*/
         id: 'GTM-N8XK2GT',
-        defaultDataLayer: { platform: "gatsby" },
+        defaultDataLayer: { platform: 'gatsby' },
         includeInDevelopment: true,
-
       },
     },
     {
@@ -164,7 +163,12 @@ module.exports = {
       options: {
         printRejected: true, // Print removed selectors and processed file names
         develop: true,
-        ignore: ['photoswipe/', '/globalStyles.css', '/admin.css', '/BackgroundVideo.css'],
+        ignore: [
+          'photoswipe/',
+          '/globalStyles.css',
+          '/admin.css',
+          '/BackgroundVideo.css',
+        ],
         // develop: true, // Enable while using `gatsby develop`
         // tailwind: true, // Enable tailwindcss support
         // whitelist: ['whitelist'], // Don't remove this selector

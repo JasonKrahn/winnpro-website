@@ -108,15 +108,15 @@ accordion:
       lighting, testing of fire extinguishers (and all other items installed for
       safety) and any other repairs or maintenance that you may require.
 gallery:
-  - alt: Red River Mutual Regional Office exterior construction
-    image: https://ucarecdn.com/a1566fd4-4cc2-40de-8c37-8142126a7335/
-    title: Exterior Construction of Red River Mutual Regional Office
-  - alt: Crossroads Shopping Building Shell
-    image: https://ucarecdn.com/de50e4dc-5d31-4aae-ad7c-716331bfe399/
-    title: Shopping Centre Shell
-  - alt: Restaurant construction finished Jollibee interior
-    image: https://ucarecdn.com/87258cc3-beb6-4d74-87b8-78d82bad64f6/
-    title: Completed Jollibee Restaurant Order Desk
+  - alt: Scurfield Medical center
+    image: https://ucarecdn.com/677b541d-cb65-401e-8049-238ebc95be7a/
+    title: Scurfield Medical center
+  - alt: Delta 9 Cannabis  Kenaston
+    image: https://ucarecdn.com/4cfbe3ef-5e12-4761-b6ad-abd5e8a95c91/
+    title: Delta 9 Cannabis  Kenaston
+  - alt: Building Restoration
+    image: https://ucarecdn.com/660a560e-24ec-48e2-a617-856e6d68bd10/
+    title: Building Restoration
 section2: >-
   ![Procore core and Core Certified](/images/core-and-procore.jpg "Procore and
   Core Certified")

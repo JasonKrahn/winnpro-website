@@ -2,7 +2,7 @@
 template: SinglePost
 title: Societe Franco-Manitobain
 status: Published
-date: 2020-10-19
+date: 2010-05-19
 featuredImage: https://ucarecdn.com/3c1fab6c-4202-4c67-b6c7-61b1967d119b/
 budget: $250,000
 completed: 2020-10
