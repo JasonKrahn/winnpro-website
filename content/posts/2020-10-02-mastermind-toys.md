@@ -6,7 +6,7 @@ date: 2020-10-02
 featuredImage: https://ucarecdn.com/556c37b7-9fb2-4808-a10b-cd4be7234d75/-/crop/1500x817/0,0/-/preview/-/enhance/76/
 budget: 1,400,000
 completed: 2017-07
-architect: Raymond S.C. Wan Architect Ltd.
+architect: Raymond S.C. Wan, Architect Inc.
 categories:
   - category: Retail
   - category: Shopping Centres

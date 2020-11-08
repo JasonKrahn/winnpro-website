@@ -19,3 +19,4 @@ __mocks__/file-mock.js
 __mocks__/gatsby.js
 src/components/__tests__/PageHeader.js
 src/components/__tests__/__snapshots__/PageHeader.js.snap
+Capture.PNG

@@ -6,7 +6,7 @@ date: 2020-10-19
 featuredImage: https://ucarecdn.com/2f1bed75-2aff-4451-86c6-7fca3376d0a7/
 budget: $910,000
 completed: 2012-06
-architect: Raymond S.C. Wan Architect Inc.
+architect: Raymond S.C. Wan, Architect Inc.
 categories:
   - category: Commercial Renovations
   - category: Office Buildings

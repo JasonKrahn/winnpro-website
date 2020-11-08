@@ -6,7 +6,7 @@ date: 2020-10-17
 featuredImage: https://ucarecdn.com/8882306a-de2e-484c-a4d1-1188a3a570a0/
 budget: $700,000
 completed: 2014-06
-architect: Raymond S.C. Wan Architect
+architect: Raymond S.C. Wan, Architect Inc.
 categories:
   - category: Retail
   - category: Commercial Renovations
