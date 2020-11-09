@@ -2,9 +2,9 @@
 template: ProjectIndex
 title: Shopping Centres
 subtitle: Shopping malls and building construction
-featuredImage: https://ucarecdn.com/19b61169-837b-4490-9085-fcb37acafe7f/-/crop/2309x1566/0,166/-/preview/
+featuredImage: https://ucarecdn.com/f5e13e08-9b17-44f6-9c6d-aa961cfd87cc/
 meta:
   noindex: true
   title: Shopping Centres
-  description: Shopping Centre Construction
+  description: WinnPro excels at all types of shopping Center and retail store construction
 ---
