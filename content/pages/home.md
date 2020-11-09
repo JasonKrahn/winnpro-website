@@ -8,10 +8,10 @@ section1: >-
   ## Who We Are
 
 
-  WinnPro Construction Ltd. is a first generation general contractor based in Winnipeg, Manitoba. We have local management, labor expertise and we have a pool of qualified subcontractors who are able to meet our specific construction requirements.
+  WinnPro Construction Ltd. is a first generation general contractor based in Winnipeg, Manitoba. We have local management, labor expertise and we have a pool of qualified subcontractors who are able to meet our specific commercial construction requirements.
 
 
-  WinnPro’s expertise lies in general contracting; project management, and design build. We have completed projects in multiple sectors of the commercial world including:
+  WinnPro’s expertise lies in a variety of [services](/services) including general contracting; project management, and design build. We have completed projects in multiple sectors of the commercial world including:
 
 
   * Food industries
@@ -23,13 +23,13 @@ section1: >-
   * Retail
 
 
-  ### [See a selection of our completed projects](/projects)
-
-
   ## What We Do
 
 
   We strive to achieve long-term relationships with our partners and customers. We recognize the value of experience, hard work, and standing by your word; listening to your needs to understand your specifications and create the space you want.
+
+
+  ### [Browse a selection of our completed projects](/projects)
 video: https://res.cloudinary.com/winnpro/video/upload/c_scale,f_auto,w_1000/v1603233732/Pages/winnpro-cover-video.mov
 videoPoster: https://res.cloudinary.com/winnpro/image/upload/v1602043005/DJI_0005_md5mn9.jpg
 videoTitle: Serving Winnipeg for over 20 years
