@@ -1,3 +1,8 @@
 [build]
   publish = "public"
   command = "npm run build"
+
+[[redirects]]
+  from = "/about-us"
+  to = "/services"
+  status = 200
