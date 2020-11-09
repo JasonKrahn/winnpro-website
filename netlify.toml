@@ -4,5 +4,15 @@
 
 [[redirects]]
   from = "/about-us"
+  to = "/"
+  from = "/our-team"
+  to = "/"
+  from = "/contact.php"
+  to = "/contact"
+  from = "/services-offered/general-contracting"
   to = "/services"
+  from = "/tag"
+  to = "/"
+  from = "/category"
+  to = "/"
   status = 200
