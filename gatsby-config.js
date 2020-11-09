@@ -4,7 +4,7 @@ require('dotenv').config()
 module.exports = {
   siteMetadata: {
     title: 'WinnPro',
-    siteUrl: 'https://quirky-blackwell-1dd863.netlify.app',
+    siteUrl: 'https://winnproconstruction.ca',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
