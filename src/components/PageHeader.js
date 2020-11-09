@@ -13,7 +13,9 @@ const PageHeader = ({
 }) => {
   if (large) className += ' PageHeader-large'
   return (
+ 
     <div className={`PageHeader relative ${className}`}>
+      <meta name="google-site-verification" content="0Ru55ISKyisDAaPts5kEIFaU_uXDXyZhOKFaSXycxjM" />
       {backgroundImage && (
         <Image
           background
@@ -32,6 +34,7 @@ const PageHeader = ({
     </div>
   )
 }
+
 
 PageHeader.propTypes = {
   title: PropTypes.string,
