@@ -28,7 +28,7 @@
   status = 200
 
 [[redirects]]
-  from = "  /project-gallery"
+  from = "/project-gallery"
   to = "/projects"
   status = 200
 
