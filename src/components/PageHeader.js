@@ -15,7 +15,7 @@ const PageHeader = ({
   return (
  
     <div className={`PageHeader relative ${className}`}>
-      <meta name="google-site-verification" content="0Ru55ISKyisDAaPts5kEIFaU_uXDXyZhOKFaSXycxjM" />
+      <meta name="google-site-verification" content="T69jEOUyFn7p5l2NSMHqEcNWadkmus-yELAk0y_913Q" />
       {backgroundImage && (
         <Image
           background
