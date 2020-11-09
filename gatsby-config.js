@@ -155,7 +155,10 @@ module.exports = {
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
         stylesPath: `${__dirname}/src/cms/admin.css`,
-        enableIdentityWidget: false,
+        enableIdentityWidget: true,
+        publicPath: `admin`,
+        htmlTitle: `WinnPro Content Manager`,
+        includeRobots: false,
       },
     },
     {
