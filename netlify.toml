@@ -23,8 +23,13 @@
   status = 200
 
 [[redirects]]
-  from = "/tag"
+  from = "/tag/winnipeg"
   to = "/"
+  status = 200
+
+[[redirects]]
+  from = "  /project-gallery"
+  to = "/projects"
   status = 200
 
 [[redirects]]
