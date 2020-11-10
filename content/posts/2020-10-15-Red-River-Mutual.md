@@ -37,4 +37,5 @@ The ribbon cutting ceremony took place June 2013 where we were pleased to celebr
 #### How It’s Made – The Red River Mutual Winnipeg Regional Office Edition
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7Tg0oXMyM7w" frameborder="0"
-  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  allow="autoplay; encrypted-media" allowfullscreen></iframe
+  
