@@ -1,3 +1,38 @@
 [build]
   publish = "public"
   command = "npm run build"
+
+[[redirects]]
+  from = "/about-us"
+  to = "/"
+  status = 200
+
+[[redirects]]
+  from = "/our-team"
+  to = "/"
+  status = 200
+
+[[redirects]]
+  from = "/contact.php"
+  to = "/contact"
+  status = 200
+
+[[redirects]]
+  from = "/services-offered/general-contracting"
+  to = "/services"
+  status = 200
+
+[[redirects]]
+  from = "/tag/winnipeg"
+  to = "/"
+  status = 200
+
+[[redirects]]
+  from = "/project-gallery"
+  to = "/projects"
+  status = 200
+
+[[redirects]]
+  from = "/category"
+  to = "/"
+  status = 200
