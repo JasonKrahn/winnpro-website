@@ -5,7 +5,7 @@ status: Published
 date: 2020-10-15
 featuredImage: https://ucarecdn.com/a1566fd4-4cc2-40de-8c37-8142126a7335/
 budget: $2,845,000
-completed: 2020-10
+completed: 2013-10
 architect: Raymond S.C Wan, Architect Inc.
 categories:
   - category: Interior Renovations
