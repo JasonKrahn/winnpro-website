@@ -129,26 +129,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Exo 2`],
-        display: 'swap',
+        fonts: 
+          [
+            `Exo 2`,
+            `sans-serif\:300,400,500,600`,
+            `latin-ext`
+          ],
+          display: 'swap',
+        },
       },
-    },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Exo 2`,
-            variants: [`300`, `400`, `500`, `600`],
-            subsets: ['latin-ext'],
-          },
-          {
-            family: `Open Sans`,
-            variants: [`300`, `400`, `500`, `600`],
-          },
-        ],
-      },
-    },
+    `gatsby-plugin-preload-fonts`,
     'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-netlify-cms',
