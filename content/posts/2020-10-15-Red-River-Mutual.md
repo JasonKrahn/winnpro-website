@@ -5,7 +5,7 @@ status: Published
 date: 2020-10-15
 featuredImage: https://ucarecdn.com/a1566fd4-4cc2-40de-8c37-8142126a7335/
 budget: $2,845,000
-completed: 2020-10
+completed: 2013-10
 architect: Raymond S.C Wan, Architect Inc.
 categories:
   - category: Interior Renovations
@@ -37,4 +37,5 @@ The ribbon cutting ceremony took place June 2013 where we were pleased to celebr
 #### How It’s Made – The Red River Mutual Winnipeg Regional Office Edition
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7Tg0oXMyM7w" frameborder="0"
-  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  allow="autoplay; encrypted-media" allowfullscreen></iframe
+  

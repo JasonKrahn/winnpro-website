@@ -27,8 +27,12 @@ meta:
 ---
 #### Project Overview
 
-Iudico eripuit ius ei, dolorem recusabo duo ei. Ex per tation legimus veritus, delicata vulputate sed id, in duo quot mnesarchum.
+Seafood City near Garden City is the 1st store operating in Winnipeg and one of only two stores in Canada as of this writing. 
+
+Seafood city is a annchor tenant of the former Sears Space at Garden City
+
+The project involved converting 2/3 of the former Sears space into a giant grocery store specializing in fish from the sea and traditional Filipino ethnic foods. This location also has features their famous street of various restaurants: Grill City, Crispy Town, Bakery, and Noodle Street. 
 
 #### Results
 
-Ea vix veri aliquid pericula, graeci adversarium delicatissimi ad vis. Et eum causae molestiae, prima perfecto partiendo qui ut. Saepe ubique putent et sed. In vim nibh congue definitiones, ut mea eligendi vivendum. Invidunt sensibus senserit eu usu, probo noster nostrud sit id.
+Seafood City opened in 2019 to an excited Fillipino community. This grocery store is truly one-of-a-kind for Winnipeg! If you haven't been, it is definetly worth checking out the unique selections of foods and restaurants. 
