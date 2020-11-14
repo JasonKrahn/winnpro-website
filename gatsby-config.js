@@ -129,16 +129,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: 
-          [
-            `Exo 2`,
-            `sans-serif\:300,400,500,600`,
-            `latin-ext`
-          ],
-          display: 'swap',
-        },
+        fonts: [`Exo 2`, `sans-serif\:300,400,500,600`, `latin-ext`],
+        display: 'swap',
       },
-    `gatsby-plugin-preload-fonts`,
+    },
     'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-netlify-cms',
@@ -156,12 +150,7 @@ module.exports = {
       options: {
         printRejected: true, // Print removed selectors and processed file names
         develop: true,
-        ignore: [
-          'photoswipe/',
-          '/globalStyles.css',
-          '/admin.css',
-          '/BackgroundVideo.css',
-        ],
+        ignore: ['photoswipe/'],
         // develop: true, // Enable while using `gatsby develop`
         // tailwind: true, // Enable tailwindcss support
         // whitelist: ['whitelist'], // Don't remove this selector

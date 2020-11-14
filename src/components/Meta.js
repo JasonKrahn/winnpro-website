@@ -50,7 +50,10 @@ export default class Meta extends Component {
         )}
         {noindex && <meta name="robots" content="all" />}
         {canonicalLink && <link rel="canonical" href={canonicalLink} />}
-        <meta name="google-site-verification" content="T69jEOUyFn7p5l2NSMHqEcNWadkmus-yELAk0y_913Q" />
+        <meta
+          name="google-site-verification"
+          content="T69jEOUyFn7p5l2NSMHqEcNWadkmus-yELAk0y_913Q"
+        />
         <meta property="og:locale" content="en_US" />
         <meta property="og:site_name" content={siteTitle} />
         <meta name="twitter:description" content={siteDescription} />
