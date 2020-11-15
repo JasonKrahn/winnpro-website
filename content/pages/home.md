@@ -118,9 +118,6 @@ gallery:
     image: https://ucarecdn.com/660a560e-24ec-48e2-a617-856e6d68bd10/
     title: Building Restoration
 section2: >-
-  ![Procore core and Core Certified](/images/core-and-procore.jpg "Procore and
-  Core Certified")
-
 
   ### COR™ Certification
 
