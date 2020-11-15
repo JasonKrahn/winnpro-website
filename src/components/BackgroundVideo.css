@@ -37,18 +37,18 @@
   width: 100%;
   text-align: center;
   color: var(--primary);
-  text-shadow: .5px .5px .5px rgb(46, 46, 46);
+  text-shadow: 1px 1px 1px rgba(85, 85, 85,.5);
 }
 
 .Poster--videoTitle {
   position: absolute;
   top: 50%;
   left: 0;
-  transform: translate(0, -20%);
+  transform: translate(0, -50%);
   font-size: 5rem;
   font-weight: bold;
   width: 100%;
   text-align: center;
-  color: white;
-  text-shadow: 1px 1px 1px rgb(85, 85, 85);
+  color: var(--primary);
+  text-shadow: 1px 1px 1px rgba(85, 85, 85,.5);
 }

@@ -100,8 +100,8 @@ collections: # A list of collections the CMS should be able to edit
                 }
 
       - file: 'content/pages/projects.md'
-        label: 'Projects Page'
-        name: 'projects-page'
+        label: 'Project Index'
+        name: 'project-index'
         fields:
           - {
               label: Template,
@@ -109,7 +109,7 @@ collections: # A list of collections the CMS should be able to edit
               widget: hidden,
               default: ProjectIndex,
             }
-          - { label: Slug, name: slug, widget: hidden, default: 'project' }
+          - { label: Slug, name: slug, widget: hidden, default: 'projects' }
           - { label: Title, name: title, widget: string }
           - { label: Featured Image, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown }
@@ -406,9 +406,4 @@ collections: # A list of collections the CMS should be able to edit
             widget: object
             fields:
               - { label: Image, name: image, widget: image, required: false }
-          - {
-              label: Google Analytics Tracking Id,
-              name: googleTrackingId,
-              widget: string,
-              required: false,
-            }
+

@@ -50,6 +50,13 @@ export const HomePageTemplate = ({
         <Gallery images={gallery} />
       </div>
     </section>
+    <section className="pro-cor-section">
+      <div className="container">
+        <p><br></br>
+      <img class="Content--Image markdown-preview" src="/images/core-and-procore.jpg" srcset="" height="100px" width="442px" title="Procore and Core Certified" alt="Procore Project Management Software and Core Certification Logos" />
+      </p>
+      </div>
+    </section>
     <section className="section">
       <div className="container">
         <Content source={section2} />

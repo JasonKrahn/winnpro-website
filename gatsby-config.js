@@ -126,20 +126,13 @@ module.exports = {
         showSpinner: false,
       },
     },
-    {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [`Exo 2`, `sans-serif\:300,400,500,600`, `latin-ext`],
-        display: 'swap',
-      },
-    },
     'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
         stylesPath: `${__dirname}/src/cms/admin.css`,
-        enableIdentityWidget: true,
+        enableIdentityWidget: false,
         publicPath: `admin`,
         htmlTitle: `WinnPro Content Manager`,
         includeRobots: false,

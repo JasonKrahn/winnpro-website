@@ -35,7 +35,7 @@ CMS.registerPreviewTemplate('contact-page', ({ entry }) => (
 CMS.registerPreviewTemplate('news-page', ({ entry }) => (
   <NewsPageTemplate {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('project-page', ({ entry }) => (
+CMS.registerPreviewTemplate('project-index', ({ entry }) => (
   <ProjectIndexTemplate {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('posts', ({ entry }) => (

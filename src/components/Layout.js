@@ -16,7 +16,6 @@ export default ({ children, meta, title }) => {
           settingsYaml {
             siteTitle
             siteDescription
-            googleTrackingId
             socialMediaCard {
               image
             }
@@ -39,7 +38,7 @@ export default ({ children, meta, title }) => {
         }
       `}
       render={(data) => {
-        const { siteTitle, socialMediaCard, googleTrackingId } =
+        const { siteTitle, socialMediaCard } =
             data.settingsYaml || {},
           subNav = {
             posts: data.allPosts.hasOwnProperty('edges')
@@ -58,11 +57,11 @@ export default ({ children, meta, title }) => {
               {title}
               <link href="https://ucarecdn.com" rel="preconnect" crossorigin />
               <link rel="dns-prefetch" href="https://ucarecdn.com" />
-              {/* Add font link tags here */}
+              <link rel="preconnect" href="https://fonts.gstatic.com" />
+              <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
             </Helmet>
 
             <Meta
-              googleTrackingId={googleTrackingId}
               absoluteImageUrl={
                 socialMediaCard &&
                 socialMediaCard.image &&

@@ -28,7 +28,6 @@ export default class Meta extends Component {
       canonicalLink,
       siteTitle,
       siteDescription,
-      googleTrackingId,
       // overwrite { title, description } if in fields or fields.meta
     } = this.props
 
@@ -62,24 +61,6 @@ export default class Meta extends Component {
         <meta property="og:image:secure_url" content={absoluteImageUrl} />
         <meta property="og:image" content={absoluteImageUrl} />
         <meta name="twitter:card" content={absoluteImageUrl} />
-
-        {googleTrackingId && (
-          <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=${googleTrackingId}`}
-          />
-        )}
-
-        {googleTrackingId && (
-          <script>
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '${googleTrackingId}');
-            `}
-          </script>
-        )}
       </Helmet>
     )
   }
