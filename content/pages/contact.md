@@ -4,7 +4,7 @@ slug: contact
 title: Contact WinnPro
 featuredImage: https://ucarecdn.com/cdf1a5e5-25f9-472f-a363-889807ffba97/
 subtitle: Get in touch with a Pro
-address: 48 Speers Rd, Winnipeg, MB R2J 1M3
+address: Unit A - 48 Speers Rd, Winnipeg, MB R2J 1M3
 phone: 1-204-989-5941
 email: info@winnpro.ca
 locations:
