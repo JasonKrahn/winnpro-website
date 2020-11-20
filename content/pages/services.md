@@ -23,7 +23,7 @@ section1: >-
   * Shopping centres
 
 
-  We work primarily in the Winnipeg and Brandon area, but we travel frequently to Northern Manitoba to work with clients in The Pas and Churchill. We also build in Edmonton and Calgary, Alberta.
+  We work primarily in the Winnipeg and Brandon area, but we have travelled to Northern Manitoba to work with clients. We also have built in Edmonton and Calgary, Alberta.
 section2: >-
   ## Project Management
 
