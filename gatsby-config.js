@@ -43,7 +43,6 @@ module.exports = {
         clientsClaim: true,
       },
     },
-    /*
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -58,8 +57,6 @@ module.exports = {
         icon: `${__dirname}/static/images/logo.svg`, // This path is relative to the root of the site.
       },
     },
-    */
-
     // Add static assets before markdown files
     {
       resolve: 'gatsby-source-filesystem',
@@ -148,7 +145,7 @@ module.exports = {
         ignore: [
           'photoswipe/', 
           '/globalStyles.css',
-          '/NavLink.css'
+          '/Nav.css'
         ],
         // develop: true, // Enable while using `gatsby develop`
         // tailwind: true, // Enable tailwindcss support
