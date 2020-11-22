@@ -141,7 +141,7 @@ module.exports = {
       resolve: `gatsby-plugin-purgecss`,
       options: {
         printRejected: true, // Print removed selectors and processed file names
-        develop: true,
+        develop: false,
         ignore: [
           'photoswipe/', 
           '/globalStyles.css',

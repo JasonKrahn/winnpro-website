@@ -7,6 +7,11 @@ import Footer from './Footer'
 
 import 'modern-normalize/modern-normalize.css'
 import './globalStyles.css'
+import 'fontsource-exo-2/300.css'
+import 'fontsource-exo-2/400.css'
+import 'fontsource-exo-2/500.css'
+import 'fontsource-exo-2/600.css'
+import 'fontsource-exo-2/700.css'
 
 export default ({ children, meta, title }) => {
   return (
@@ -57,8 +62,6 @@ export default ({ children, meta, title }) => {
               {title}
               <link href="https://ucarecdn.com" rel="preconnect" crossorigin />
               <link rel="dns-prefetch" href="https://ucarecdn.com" />
-              <link rel="preconnect" href="https://fonts.gstatic.com" />
-              <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
             </Helmet>
 
             <Meta
