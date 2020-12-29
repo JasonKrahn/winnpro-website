@@ -1,7 +1,7 @@
 ---
 template: HomePage
 slug: ""
-title: WinnPro Construction
+title: WinnPro Construction Ltd.
 featuredImage: https://ucarecdn.com/c5e798e8-f3b7-4df5-b89d-974402eb980c/
 subtitle: Winnipeg's foremost commercial contractors
 section1: >-
@@ -118,7 +118,7 @@ gallery:
     image: https://ucarecdn.com/660a560e-24ec-48e2-a617-856e6d68bd10/
     title: Building Restoration
 section2: >-
-
+  
   ### COR™ Certification
 
 
