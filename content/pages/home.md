@@ -111,12 +111,12 @@ gallery:
   - alt: Scurfield Medical center
     image: https://ucarecdn.com/677b541d-cb65-401e-8049-238ebc95be7a/
     title: Scurfield Medical center
-  - alt: Delta 9 Cannabis  Kenaston
-    image: https://ucarecdn.com/4cfbe3ef-5e12-4761-b6ad-abd5e8a95c91/
-    title: Delta 9 Cannabis  Kenaston
-  - alt: Building Restoration
-    image: https://ucarecdn.com/660a560e-24ec-48e2-a617-856e6d68bd10/
-    title: Building Restoration
+  - alt: Marks Linden Ridge
+    image: https://ucarecdn.com/a39c178e-772f-4eeb-bdf0-ac496f8f785f/
+    title: Marks Linden Ridge
+  - alt: Scurfield Medical center
+    image: https://ucarecdn.com/6c992a4c-6dba-40b0-b8a4-531ad195ec2e/
+    title: Scurfield Medical center
 section2: >-
   
   ### COR™ Certification
