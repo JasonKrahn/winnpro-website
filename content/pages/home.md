@@ -26,7 +26,7 @@ section1: >-
   ## What We Do
 
 
-  We strive to achieve long-term relationships with our partners and customers. We recognize the value of experience, hard work, and standing by your word; listening to your needs to understand your specifications and create the space you want.
+  We strive to achieve long-term relationships with our partners and customers. We recognize the value of experience, hard work, and standing by your word; listening to your needs to understand your specifications and create the commercial space you want.
 
 
   ### [Browse a selection of our completed projects](/projects)
