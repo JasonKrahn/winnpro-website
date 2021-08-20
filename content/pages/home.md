@@ -108,15 +108,15 @@ accordion:
       lighting, testing of fire extinguishers (and all other items installed for
       safety) and any other repairs or maintenance that you may require.
 gallery:
-  - alt: Scurfield Medical center
-    image: https://ucarecdn.com/677b541d-cb65-401e-8049-238ebc95be7a/
-    title: Scurfield Medical center
+  - alt: North Town
+    image: https://ucarecdn.com/a4ee7e6a-9fbe-40d2-9390-4d0a4183684e/
+    title: North Town
   - alt: Marks Linden Ridge
     image: https://ucarecdn.com/a39c178e-772f-4eeb-bdf0-ac496f8f785f/
     title: Marks Linden Ridge
-  - alt: Scurfield Medical center
-    image: https://ucarecdn.com/6c992a4c-6dba-40b0-b8a4-531ad195ec2e/
-    title: Scurfield Medical center
+  - alt: Jollibee Regent
+    image: https://ucarecdn.com/91516381-e517-49f7-bdb6-1a411ea65b8d/
+    title: Jollibee Regent
 section2: >-
   
   ### COR™ Certification
