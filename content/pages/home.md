@@ -114,7 +114,7 @@ gallery:
   - alt: Marks Linden Ridge
     image: https://ucarecdn.com/a39c178e-772f-4eeb-bdf0-ac496f8f785f/
     title: Marks Linden Ridge
-  - alt: Jollibee Regent
+  - alt: Jollibee Nairn
     image: https://ucarecdn.com/91516381-e517-49f7-bdb6-1a411ea65b8d/
     title: Jollibee Regent
 section2: >-
