@@ -30,8 +30,8 @@ section1: >-
 
 
   ### [Browse a selection of our completed projects](/projects)
-video: https://res.cloudinary.com/winnpro/video/upload/c_scale,f_auto,w_1000/v1603233732/Pages/winnpro-cover-video.mov
-videoPoster: https://ucarecdn.com/12bddef2-da18-4529-aeef-8f63792b187a/
+video: https://res.cloudinary.com/winnpro/video/upload/f_auto,fl_progressive/v1634060244/Pages/winnpro_cover_video_pivfix.mov
+videoPoster: https://ucarecdn.com/32f565af-86aa-499b-9dea-2ac0f78de6b6/video_cover_131.jpg
 videoTitle: Serving Winnipeg for over 20 years
 accordion:
   - description: Project management is known to be a combination of art and science;
