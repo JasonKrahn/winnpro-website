@@ -32,7 +32,7 @@ section1: >-
   ### [Browse a selection of our completed projects](/projects)
 video: https://res.cloudinary.com/winnpro/video/upload/f_auto,fl_progressive/v1634060244/Pages/winnpro_cover_video_pivfix.mov
 videoPoster: https://ucarecdn.com/bc8baa6d-22d4-4542-9a0f-3a1b05c44b53/
-videoTitle: Serving Winnipeg for over 20 years
+videoTitle: Serving Winnipeg for over 25 years
 accordion:
   - description: Project management is known to be a combination of art and science;
       involving planning, organizing, controlling and leading. With a wide range
@@ -131,7 +131,7 @@ section2: >-
   We use the latest [Procore Project Management](https://www.procore.com/) systems for all projects – big and small – in our ongoing effort to streamline operations and maintain efficiencies across the board.
 meta:
   description: WinnPro Construction Ltd. is a customer focused commercial builder
-    with over 15 years in the industry. Based in Winnipeg Manitoba.
+    with over 25 years in the industry. Based in Winnipeg Manitoba.
   title: WinnPro Construction Home
   canonicalLink: winnproconstuction.ca
 ---
