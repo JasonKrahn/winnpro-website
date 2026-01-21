@@ -12,8 +12,8 @@ locations:
     lng: "-97.0725718"
     mapLink: https://www.google.com/maps/place/WinnPro+Construction+Ltd/@49.8728799,-97.0725718,15z/data=!4m5!3m4!1s0x0:0x695df3daa08feddb!8m2!3d49.8728799!4d-97.0725718
 meta:
-  description: Contact WinnPro Construction for your next commercial building or
-    renovation project in Manitoba or Alberta.
+  description: "Contact WinnPro Construction for your next commercial building or
+    renovation project in Manitoba. "
   title: Contact WinnPro | Manitoba's Commercial Construction Experts
 ---
 ## Contact us
