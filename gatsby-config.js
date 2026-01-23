@@ -18,31 +18,32 @@ module.exports = {
         includeInDevelopment: true,
       },
     },
-    {
-      resolve: 'gatsby-plugin-offline',
-      options: {
-        runtimeCaching: [
-          {
-            // Use cacheFirst since these don't need to be revalidated (same RegExp
-            // and same reason as above)
-            urlPattern: /(\.js$|\.css$|static\/)/,
-            handler: `cacheFirst`,
-          },
-          {
-            // Add runtime caching of various other page resources
-            urlPattern: /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
-            handler: `staleWhileRevalidate`,
-          },
-          {
-            // uploadcare
-            urlPattern: /^https:\/\/ucarecdn.com\/[-a-zA-Z0-9@:%_\+.~#?&//=]*?\/10x\//,
-            handler: `staleWhileRevalidate`,
-          },
-        ],
-        skipWaiting: true,
-        clientsClaim: true,
-      },
-    },
+    // TODO: Re-enable gatsby-plugin-offline after Gatsby v4 upgrade
+    // {
+    //   resolve: 'gatsby-plugin-offline',
+    //   options: {
+    //     runtimeCaching: [
+    //       {
+    //         // Use cacheFirst since these don't need to be revalidated (same RegExp
+    //         // and same reason as above)
+    //         urlPattern: /(\.js$|\.css$|static\/)/,
+    //         handler: `cacheFirst`,
+    //       },
+    //       {
+    //         // Add runtime caching of various other page resources
+    //         urlPattern: /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
+    //         handler: `staleWhileRevalidate`,
+    //       },
+    //       {
+    //         // uploadcare
+    //         urlPattern: /^https:\/\/ucarecdn.com\/[-a-zA-Z0-9@:%_\+.~#?&//=]*?\/10x\//,
+    //         handler: `staleWhileRevalidate`,
+    //       },
+    //     ],
+    //     skipWaiting: true,
+    //     clientsClaim: true,
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -80,9 +81,8 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          // gatsby-remark-relative-images must
-          // go before gatsby-remark-images
-          'gatsby-remark-relative-images',
+          // TODO: gatsby-remark-relative-images disabled due to Node 18 compatibility issue
+          // 'gatsby-remark-relative-images',
           {
             resolve: 'gatsby-remark-images',
             options: {
