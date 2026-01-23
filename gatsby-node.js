@@ -1,7 +1,7 @@
 const _ = require('lodash')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
-// TODO: gatsby-remark-relative-images disabled due to Node 18 compatibility issue
+// gatsby-remark-relative-images disabled due to File API compatibility issues
 // const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 
 exports.createPages = ({ actions, graphql }) => {
@@ -65,7 +65,7 @@ exports.createPages = ({ actions, graphql }) => {
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
-  // TODO: fmImagesToRelative disabled due to Node 18 compatibility issue
+  // gatsby-remark-relative-images disabled due to File API compatibility issues
   // convert frontmatter images
   // fmImagesToRelative(node)
 

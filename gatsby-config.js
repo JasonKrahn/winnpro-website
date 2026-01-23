@@ -8,6 +8,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-image',
     'gatsby-transformer-yaml',
     {
       resolve: 'gatsby-plugin-google-tagmanager',
@@ -18,30 +19,12 @@ module.exports = {
         includeInDevelopment: true,
       },
     },
-    // TODO: Re-enable gatsby-plugin-offline after Gatsby v4 upgrade
+    // Disabled gatsby-plugin-offline due to File API compatibility issues with newer Node/undici
+    // TODO: Find alternative or update when fix is available
     // {
     //   resolve: 'gatsby-plugin-offline',
     //   options: {
-    //     runtimeCaching: [
-    //       {
-    //         // Use cacheFirst since these don't need to be revalidated (same RegExp
-    //         // and same reason as above)
-    //         urlPattern: /(\.js$|\.css$|static\/)/,
-    //         handler: `cacheFirst`,
-    //       },
-    //       {
-    //         // Add runtime caching of various other page resources
-    //         urlPattern: /^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/,
-    //         handler: `staleWhileRevalidate`,
-    //       },
-    //       {
-    //         // uploadcare
-    //         urlPattern: /^https:\/\/ucarecdn.com\/[-a-zA-Z0-9@:%_\+.~#?&//=]*?\/10x\//,
-    //         handler: `staleWhileRevalidate`,
-    //       },
-    //     ],
-    //     skipWaiting: true,
-    //     clientsClaim: true,
+    //     ...
     //   },
     // },
     {
@@ -81,7 +64,7 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          // TODO: gatsby-remark-relative-images disabled due to Node 18 compatibility issue
+          // gatsby-remark-relative-images disabled due to File API compatibility issues
           // 'gatsby-remark-relative-images',
           {
             resolve: 'gatsby-remark-images',
