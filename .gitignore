@@ -1,0 +1,15 @@
+# Project dependencies
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+.cache/
+# Build directory
+static/admin/*.bundle.*
+.DS_Store
+yarn-error.log
+public/
+.env.development
+.env
+Capture.PNG
+.node-local/
+run-node12.sh
+.run-node12.sh

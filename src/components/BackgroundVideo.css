@@ -1,0 +1,54 @@
+.BackgroundVideo-section {
+  position: relative;
+  overflow: hidden;
+  height: 40rem;
+}
+.BackgroundVideo {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 100;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.BackgroundVideo video {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.BackgroundVideo--video {
+  transition: all 0.2s ease;
+  opacity: 0;
+}
+.BackgroundVideo--video.playing {
+  opacity: 1;
+}
+
+.BackgroundVideo--videoTitle {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  font-size: 5rem;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  color: var(--primary);
+  text-shadow: 1px 1px 1px rgba(85, 85, 85,.5);
+}
+
+.Poster--videoTitle {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  font-size: 5rem;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  color: var(--primary);
+  text-shadow: 1px 1px 1px rgba(85, 85, 85,.5);
+}
