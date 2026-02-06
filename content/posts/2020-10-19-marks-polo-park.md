@@ -20,8 +20,8 @@ gallery:
     title: Mark's display
 meta:
   title: Mark's Polo Park
-  description: Partnering with Mark’s and the Canadian Tire Corporation, we renovated their new impressive, expanded space 600 Empress Streeet Unit 141.
+  description: Partnering with Mark’s and the Canadian Tire Corporation, we renovated their new impressive, expanded space 600 Empress Street Unit 141.
 ---
 #### Project Overview
 
-Partnering with Mark’s and the Canadian Tire Corporation, we renovated their retail outlett space at 600 Empress Streeet Unit 141.
+Partnering with Mark’s and the Canadian Tire Corporation, we renovated their retail outlet space at 600 Empress Street Unit 141.
