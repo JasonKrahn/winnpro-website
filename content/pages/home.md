@@ -111,9 +111,9 @@ gallery:
   - alt: North Town
     image: https://ucarecdn.com/a4ee7e6a-9fbe-40d2-9390-4d0a4183684e/
     title: North Town
-  - alt: Marks Linden Ridge
+  - alt: Mark's Linden Ridge
     image: https://ucarecdn.com/a39c178e-772f-4eeb-bdf0-ac496f8f785f/
-    title: Marks Linden Ridge
+    title: Mark's Linden Ridge
   - alt: Jollibee Nairn
     image: https://ucarecdn.com/91516381-e517-49f7-bdb6-1a411ea65b8d/
     title: Jollibee Regent

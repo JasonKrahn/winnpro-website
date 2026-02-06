@@ -12,10 +12,10 @@ categories:
   - category: Shopping Centres
 gallery:
   - image: https://ucarecdn.com/8425a684-01e1-4802-abb2-cb5d91229654/
-    alt: Exterior foundational construction and framing for Marks Work Warehouse
+    alt: Exterior foundational construction and framing for Mark's Work Warehouse
     title: Building Framing
   - image: https://ucarecdn.com/258d8d1d-d585-43d5-87f6-e6224cf240dd/
-    alt: Inside Setup for Marks Work Warehouse
+    alt: Inside Setup for Mark's Work Warehouse
     title: Inside Setup
   - image: https://ucarecdn.com/ed1b7fd3-acf3-4101-b124-ba057fde3d5d/
     alt: Sport Chek finished exterior

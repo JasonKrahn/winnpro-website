@@ -6,7 +6,7 @@ date: 2023-11-19
 featuredImage: https://res.cloudinary.com/joshua-tree/image/upload/c_fill,w_975,h_649,g_auto/v1770334233/joshua-tree/winnpro/IMG_2024_10_24_16_04_37_408_neally.jpg
 budget: $1,500,000
 completed: 2023-11
-architect: Marks
+architect: Mark's
 categories:
   - category: Retail
   - category: Shopping Centres

@@ -6,7 +6,7 @@ date: 2020-10-19
 featuredImage: https://ucarecdn.com/79ba8517-8823-47d5-a8aa-78bdd2de1a9a/-/crop/975x649/13,44/-/preview/-/enhance/18/
 budget: $1,000,000
 completed: 2015-10
-architect: Marks
+architect: Mark's
 categories:
   - category: Retail
   - category: Shopping Centres
